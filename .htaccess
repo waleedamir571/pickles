@@ -1,0 +1,41 @@
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+# Redirect /index.php to /
+RewriteCond %{THE_REQUEST} \s/index[.]php[\s?] [NC]
+RewriteRule ^index\.php$ / [L,R=301]
+
+# Redirect any .php URL to clean URL (e.g., /about.php to /about)
+RewriteCond %{THE_REQUEST} \s([^\s]+)\.php[\s?] [NC]
+RewriteRule ^(.*)\.php$ /$1 [L,R=301]
+
+# Handle requests for URLs without .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Allow robots.txt and sitemap.xml to be crawled
+<FilesMatch "^(robots\.txt|sitemap\.xml)$">
+    Require all granted
+</FilesMatch>
+
+# ErrorDocument for 404
+ErrorDocument 404 https://hoisolutions.com/404
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ https://hoisolutions.com/404 [L]
+
+# Add proper headers for bots (fix X-Robots-Tag issue)
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "all"
+</IfModule>
+
+Redirect /website-experts/b2b-web-portal-development /blogs/a-guide-to-custom-b2b-web-portal-development/
+Redirect /website-experts/best-practices-to-follow-while-building-a-minimalistic-website /blogs/best-practices-to-follow-while-building-a-minimalistic-website/
+Redirect /website-experts/differences-between-B2B-and-B2C-ecommerc-websites /blogs/9-differences-between-b2b-and-b2c-ecommerce-websites/

@@ -1,0 +1,193 @@
+Options +FollowSymLinks -MultiViews
+
+# Turn mod_rewrite on
+
+RewriteEngine On
+
+RewriteBase /
+
+
+
+# To externally redirect /dir/foo.php to /dir/foo
+
+RewriteCond %{REQUEST_METHOD} !POST
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+
+RewriteRule ^ %1 [R=302,L,NE]
+
+
+
+## To internally redirect /dir/foo to /dir/foo.php
+
+RewriteCond %{REQUEST_FILENAME}.php -f [NC]
+
+RewriteRule ^ %{REQUEST_URI}.php [L]
+
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+
+
+Redirect /android-game-development /game-development
+
+Redirect /react-native-mobile-app-development /mobile-app-development
+
+Redirect /hybrid-mobile-apps /mobile-app-development
+
+Redirect /mobile-game-development /mobile-app-development
+
+Redirect /cross-platform-mobile-app-development /mobile-app-development
+
+Redirect /custom-website-development /website-design-and-development
+
+Redirect /enterprise-app-development-company /mobile-app-development
+
+
+
+
+
+Redirect /website-experts/b2b-web-portal-development /blogs/a-guide-to-custom-b2b-web-portal-development/
+
+Redirect /website-experts/best-practices-to-follow-while-building-a-minimalistic-website /blogs/best-practices-to-follow-while-building-a-minimalistic-website/
+
+Redirect /website-experts/differences-between-B2B-and-B2C-ecommerc-websites /blogs/9-differences-between-b2b-and-b2c-ecommerce-websites/
+
+
+
+ErrorDocument 404 https://hoisolutions.com/404
+
+RewriteCond %{REQUEST_URI} ^/404/$
+
+RewriteRule ^(.*)$ https://hoisolutions.com/404 [L]
+
+
+
+Redirect 301 /about-us/  /about-us
+
+Redirect 301 /services/ /services
+
+Redirect 301 /website-design-and-development/    /website-design-and-development
+
+Redirect 301 /custom-website-design-and-development/ /custom-website-design-and-development
+
+Redirect 301 /full-stack-development/    /full-stack-development
+
+Redirect 301 /shopify-website-development/   /shopify-website-development
+
+Redirect 301 /ecommerce-website-development/ /ecommerce-website-development
+
+Redirect 301 /wordpress-design-and-development/  /wordpress-design-and-development
+
+Redirect 301 /website-maintenance/   /website-maintenance
+
+Redirect 301 /mobile-app-development/    /mobile-app-development
+
+Redirect 301 /ios-app-development/   /ios-app-development
+
+Redirect 301 /android-app-development/   /android-app-development
+
+Redirect 301 /cross-platform-app-development/   /cross-platform-app-development
+
+Redirect 301 /web-application-development/   /web-application-development
+
+Redirect 301 /crm-web-portal/    /crm-web-portal
+
+Redirect 301 /b2b-and-b2c-web-portals/   /b2b-and-b2c-web-portals
+
+Redirect 301 /python-development/    /python-development
+
+Redirect 301 /custom-software-development/   /custom-software-development
+
+Redirect 301 /react-native-development/  /react-native-development
+
+Redirect 301 /saas-development/  /saas-development
+
+Redirect 301 /magento-development/   /magento-development
+
+Redirect 301 /blockchain-development/   /blockchain-development
+
+Redirect 301 /dapp-development/  /dapp-development
+
+Redirect 301 /nft-marketplace-development/   /nft-marketplace-development
+
+Redirect 301 /nft-consulting-services/   /nft-consulting-services
+
+Redirect 301 /game-development/  /game-development
+
+Redirect 301 /portfolio/ /portfolio
+
+Redirect 301 /reviews/   /reviews
+
+Redirect 301 /contact-us/    /contact-us
+
+Redirect 301 /terms-and-conditions/  /terms-and-conditions
+
+Redirect 301 /privacy-policy/    /privacy-policy
+
+Redirect 301 /pricing/   /pricing
+
+
+
+<IfModule mod_expires.c>
+
+  ExpiresActive On
+
+ # Images
+
+  ExpiresByType image/webp "access plus 1 year"
+
+  # Video
+
+  ExpiresByType video/webm "access plus 1 year"
+
+  ExpiresByType video/mp4 "access plus 1 year"
+
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # Others
+
+  ExpiresByType application/pdf "access plus 1 year"
+
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+
+</IfModule>
+
+<FilesMatch "\.(jpg|jpeg|png|gif|css|js)$">
+
+    Header set Cache-Control "max-age=604800, public"
+
+</FilesMatch>
+
+
+
+# BEGIN EXPIRES
+
+<IfModule mod_expires.c>
+
+    ExpiresActive On
+
+    ExpiresDefault "access plus 10 days"
+
+    ExpiresByType text/css "access plus 1 week"
+
+    ExpiresByType text/plain "access plus 1 month"
+
+    ExpiresByType image/gif "access plus 1 month"
+
+    ExpiresByType image/png "access plus 1 month"
+
+    ExpiresByType image/jpeg "access plus 1 month"
+
+    ExpiresByType application/x-javascript "access plus 1 month"
+
+    ExpiresByType application/javascript "access plus 1 week"
+
+    ExpiresByType application/x-icon "access plus 1 year"
+
+</IfModule>
+
+# END EXPIRES

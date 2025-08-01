@@ -1,0 +1,506 @@
+@media (min-width: 768px) and (max-width: 890px) {
+    .tb-fs-12 {
+        font-size: 12px;
+    }
+
+    .tb-fs-14 {
+        font-size: 14px;
+    }
+
+    .tb-fs-20 {
+        font-size: 20px;
+    }
+
+    .tb-fs-24 {
+        font-size: 24px;
+    }
+
+    .tb-fs-26 {
+        font-size: 26px !important;
+    }
+
+    .tb-fs-28 {
+        font-size: 28px;
+    }
+
+    .tb-fs-36 {
+        font-size: 36px;
+    }
+
+    .tb-fs-40 {
+        font-size: 40px;
+    }
+
+    .tb-fs-45 {
+        font-size: 45px;
+    }
+
+    .tb-pt-0 {
+        padding-top: 0px;
+    }
+
+    .tb-pt-0i {
+        padding-top: 0px !important;
+    }
+
+    .tb-pt-6 {
+        padding-top: 6px;
+    }
+
+    .tb-pt-20 {
+        padding-top: 20px;
+    }
+
+    .tb-pt-30 {
+        padding-top: 30px;
+    }
+
+    .tb-pt-40 {
+        padding-top: 40px;
+    }
+
+    .tb-pt-50 {
+        padding-top: 50px;
+    }
+
+    .tb-pt-100 {
+        padding-top: 100px;
+    }
+
+    .tb-pt-180 {
+        padding-top: 180px;
+    }
+
+    .tb-pt-200 {
+        padding-top: 200px;
+    }
+
+    .tb-pb-0 {
+        padding-bottom: 0px !important;
+    }
+
+    .tb-pb-20 {
+        padding-bottom: 20px;
+    }
+
+    .tb-pb-50 {
+        padding-bottom: 50px;
+    }
+
+    .tb-pl-0 {
+        padding-left: 0px !important;
+    }
+
+    .tb-pl-75 {
+        padding-left: 0px;
+    }
+
+    .tb-pl-82 {
+        padding-left: 0px;
+    }
+
+    .tb-pl-94 {
+        padding-left: 0px;
+    }
+
+    .tb-pl-100 {
+        padding-left: 100px;
+    }
+
+    .tb-pl-150 {
+        padding-left: 150px;
+    }
+
+    .tb-mb-0 {
+        margin-bottom: 0px !important;
+    }
+
+    .tb-top-0 {
+        top: 0px !important;
+    }
+
+
+    .counting-1 h2 {
+        position: relative;
+        left: 0;
+        top: 18px;
+        font-size: 13px;
+    }
+
+    .counting-2 h2 {
+        position: relative;
+        left: 0;
+        top: 18px;
+        font-size: 13px;
+    }
+
+    .counting-3 h2 {
+        position: relative;
+        left: 0;
+        top: 18px;
+        font-size: 13px;
+    }
+
+    .counting-4 h2 {
+        position: relative;
+        left: 0;
+        top: 18px;
+        font-size: 13px;
+    }
+
+    .page-spacing {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .page-spacing-topnull {
+        padding-bottom: 40px !important;
+    }
+
+    .page-spacing-bottomnull {
+        padding-top: 40px !important;
+    }
+
+    .load-more-index {
+        top: 10px !important;
+    }
+
+    .mix {
+        height: 10rem !important;
+    }
+
+    .portfolio-index-overlay {
+        top: -220px !important;
+        left: 0;
+    }
+
+    .portfolio-index-overlay p,
+    .portfolio-index-overlay a {
+        top: 60px !important;
+    }
+
+    .portfolio-index-overlay .magnify-icon p span i {
+        top: -60px !important;
+    }
+
+    .portfolio-line::before {
+        left: 14px !important;
+        top: 10px;
+        width: 120px !important;
+    }
+
+    .p6-testi-first-line {
+        font-size: 16px !important;
+        padding-left: 14rem !important;
+    }
+
+    .p6-testi-first-line::before {
+        left: 8rem !important;
+        top: 10px;
+        height: 2.5px;
+        width: 88px !important;
+    }
+
+    .modal-dialog {
+        top: 0px !important;
+    }
+
+    .testimonials2 .outer1 h2 {
+        font-size: 24px !important;
+    }
+
+    .picture {
+        transform: translate(190%, -45%) !important;
+    }
+
+    .modal-dialog {
+        margin: 200px 150px 0px 150px;
+    }
+
+    .design-counters .counter-1-industry h2 {
+        left: 30px;
+        top: 0px;
+    }
+
+    .design-counters .counter-2-industry h2 {
+        left: 30px;
+        top: 0px;
+    }
+
+    .design-counters .counter-3-industry h2 {
+        left: 30px;
+        top: 0px;
+    }
+
+    .design-counters .counter-4-industry h2 {
+        left: 40px;
+        top: 0px;
+    }
+
+    .inner-form {
+        height: 584px;
+    }
+
+    .top-minus-50 {
+        position: relative;
+        top: -40px;
+    }
+
+    .portfolio-overlay {
+        position: relative;
+        z-index: 2;
+        top: -470px;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        width: 220px;
+        height: 400px;
+        text-align: center;
+        visibility: hidden;
+        transition: all 0.5s;
+        transform: scale(0);
+    }
+
+    .counting-1-service h2 {
+        position: relative;
+        left: 0px;
+        top: 18px;
+        font-size: 20px;
+    }
+
+    .counting-2-service h2 {
+        position: relative;
+        left: 0px;
+        top: 18px;
+        font-size: 20px;
+    }
+
+    .counting-3-service h2 {
+        position: relative;
+        left: 0px;
+        top: 18px;
+        font-size: 20px;
+    }
+
+    .counting-4-service h2 {
+        position: relative;
+        left: 0px;
+        top: 18px;
+        font-size: 20px;
+    }
+
+    .line-9-new:before {
+        width: 86px;
+    }
+
+    .services-sec2 {
+        padding-top: 94px;
+        font-size: 26px;
+    }
+
+    .web-btn.consultation {
+        padding: 14px 32px !important;
+    }
+
+    .hidden-tb {
+        display: none;
+    }
+
+
+    .line {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    }
+
+    .tb-fs-30 {
+        font-size: 30px;
+    }
+
+    .padding-top {
+        position: relative;
+        top: -90px;
+    }
+
+    .web-btn.consultation {
+        top: 18px !important;
+    }
+
+    .services img {
+        width: 40% !important;
+    }
+
+    .left {
+        position: absolute;
+        transform-origin: center;
+        animation: card-out 0.6s cubic-bezier(.8, .2, .1, 0.8);
+        transform: translateX(-30%) scale(0.85);
+        opacity: 1 !important;
+        z-index: 0;
+        margin-right: 18px;
+    }
+
+    .right {
+        position: absolute;
+        transform-origin: center;
+        animation: new-card 0.6s cubic-bezier(.8, .2, .1, 0.8);
+        transform: translateX(22%) scale(0.85);
+        opacity: 1 !important;
+        z-index: 0;
+        margin-left: 100px;
+    }
+
+    .brand-carousel.owl-carousel .owl-nav .owl-next {
+        display: block !important;
+        position: relative !important;
+        top: -88px !important;
+        left: 42rem !important;
+        border: none !important;
+        outline: none !important;
+        height: 51px;
+        width: 50px;
+        background: no-repeat;
+        background-image: url(../images/owl-cright-arrow.png) !important;
+    }
+
+    .brand-carousel.owl-carousel .owl-nav .owl-prev {
+        display: block !important;
+        position: relative !important;
+        top: -42px !important;
+        left: -1rem !important;
+        border: none !important;
+        outline: none !important;
+        height: 50px;
+        width: 50px;
+        background: no-repeat;
+        background-image: url(../images/owl-cleft-arrow.png) !important;
+    }
+
+    /* 
+    .portfolio-index-overlay p,
+    .portfolio-index-overlay a {
+      top: 100px !important;
+    }
+  
+    .portfolio-index-overlay .magnify-icon p span i {
+      top: -100px !important;
+    } */
+
+    .heading {
+        font-weight: 600 !important;
+        font-size: 24px !important;
+    }
+
+    .portfolio-index-section h2 {
+        font-size: 20px !important;
+    }
+
+    .portfolio-line {
+        font-size: 16px !important;
+        padding-left: 130px !important;
+    }
+
+    .form-pic {
+        width: 150%;
+        position: relative;
+        top: 40px;
+    }
+
+    .form-pic-contact {
+        width: 118%;
+        position: relative;
+        left: -40px;
+        top: 60px;
+    }
+
+    .form h1 {
+        font-size: 30px;
+    }
+
+    .line2 {
+        font-size: 16px;
+    }
+
+    .line2:before {
+        left: 34px;
+        width: 70px;
+    }
+
+    .submit-col button {
+        margin: 0px 0px 20px 30px;
+    }
+
+    .tb-mw-img {
+        max-width: 40%;
+    }
+
+    .line-7-about:before {
+        left: -20px;
+    }
+
+
+
+    .portfolio-item {
+        padding-top: 0px;
+    }
+
+    h1.digital-heading {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .line-heading-new {
+        font-size: 12px;
+    }
+
+    .line2-about:before {
+        left: 42px;
+
+    }
+
+    .counting-1-about h2 {
+        left: 0px;
+        top: 27px;
+    }
+
+    .counting-2-about h2 {
+        left: 0px;
+        top: 27px;
+    }
+
+    .counting-3-about h2 {
+        left: 0px;
+        top: 27px;
+    }
+
+    .counting-4-about h2 {
+        left: 0px;
+        top: 27px;
+    }
+
+    .see-more-btn {
+        left: 0px;
+    }
+
+    .about-sec2 {
+        font-size: 23px;
+        padding-top: 12px;
+    }
+
+    .heading-5 {
+        font-size: 16px;
+    }
+
+    .line-contact::before {
+        left: 22px;
+        top: 10px;
+        width: 130px;
+    }
+
+    .index_2ndSec_align {
+        position: relative;
+        top: auto;
+    }
+
+}

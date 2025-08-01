@@ -1,0 +1,229 @@
+.mdlrevamp .modal-dialog {
+    max-width: 58%;
+    overflow: hidden;
+    border-radius: 0px;
+    top: 0px;
+}
+
+.mdlrevamp .modal-content {
+    position: relative;
+    background: #ffffff !important;
+    border-radius: 0px;
+    top: 0;
+    margin: auto !important;
+    border: 0;
+}
+
+.mdlrevamp .modal-content h5 {
+    position: relative;
+    color: #ffffff;
+    border-radius: 0px;
+    top: 0;
+    margin: auto !important;
+    border: 0;
+    padding: 40px 100px 0px 40px;
+    font-size: 24px;
+}
+
+.mdlrevamp .modal-content h4 {
+    position: relative;
+    color: #ffffff;
+    border-radius: 0px;
+    top: 0;
+    margin: auto !important;
+    border: 0;
+    padding: 20px 20px 0px 34px;
+    font-size: 60px;
+}
+
+.mdlrevamp .modal-content h4 span {
+    color: #EE9143;
+}
+
+.mdlrevamp .modal-content h3 {
+    margin-top: 100%;
+    color: #EE9143;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.mdlrevamp .col-xl-5.leftside {
+    background-image: url('../images/forms/pop-up.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mdlrevamp .col-xl-7.rightside {
+    padding: 40px 40px 0px 30px;
+}
+
+
+.mdlrevamp .modal-content h6 {
+    color: #252525;
+    font-size: 17px;
+    padding-bottom: 11px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.mdlrevamp .modal-content h6 span {
+    color: #EE9143;
+}
+
+.mdlrevamp .form-group .form-control:focus {
+    box-shadow: none;
+}
+
+.mdlrevamp .modal-content .contact-form-revamp {
+    padding: 0px 20px 20px 0px;
+}
+
+.mdlrevamp .modal-content .contact-form-revamp input,
+.modal-content .contact-form-revamp textarea {
+    display: block;
+    border-bottom-color: #AFB1BA;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-radius: inherit;
+    padding: 0px 0px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-form-revamp input::placeholder,
+.contact-form-revamp textarea::placeholder {
+    color: #AFB1BA;
+    font-size: 14px;
+}
+
+.mdlrevamp .form-label {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.mdlrevamp button.btns {
+    transition: all 0.4s ease;
+    padding: 10px 80px 10px 80px;
+    border: 1px solid #EE9143;
+    color: #FFFFFF;
+    background: #EE9143;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.mdlrevamp button.btns:hover {
+    transition: all 0.4s ease;
+    padding: 10px 80px 10px 80px;
+    border: 1px solid #EE9143;
+    color: #EE9143;
+    background: #ffffff;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.mdlrevamp .form-footer-left h5 {
+    color: #252525;
+    font-size: 14px;
+    padding: 20px 0px 4px 0px;
+}
+
+.mdlrevamp .form-footer-left h6 {
+    color: #AFB1BA;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.mdlrevamp .form-footer-left h6 a {
+    color: #AFB1BA;
+}
+
+.mdlrevamp .form-footer-right a {
+    color: #AFB1BA;
+    font-size: 20px;
+    float: right;
+    padding: 30px 10px 10px 10px;
+}
+
+*.icon-fb {
+    color: #3b5998;
+}
+
+*.icon-insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+*.icon-linkedin {
+    color: #0a66c2;
+}
+
+*.icon-twitter {
+    color: #1DA1F2;
+}
+
+.mdlrevamp button.btns:disabled,
+.mdlrevamp button.btns[disabled] {
+    border: 1px solid #252525;
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.mdlrevamp button.btns:disabled:hover,
+.mdlrevamp button.btns[disabled]:hover {
+    border: 1px solid #252525;
+    background-color: #666666;
+    color: #ffffff;
+}
+
+
+@media (min-width: 300px) and (max-width: 800px) {
+
+    .mdlrevamp .modal-dialog {
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 0px;
+        top: 2%;
+    }
+
+    .mdlrevamp .modal-content .contact-form-revamp {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .contact-form-revamp input::placeholder,
+    .contact-form-revamp textarea::placeholder {
+        color: #ffffff;
+    }
+
+    .mdlrevamp .col-xl-7.rightside {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .mdlrevamp .modal-content h6 {
+        font-size: 20px !important;
+    }
+
+    .mdlrevamp .modal-content h6 a {
+        font-size: 14px !important;
+    }
+
+    .mdlrevamp .form-footer-right a {
+        padding: 30px 10px 10px 10px;
+        float: none;
+    }
+
+    .mdlrevamp .form-footer-left h6 a {
+        color: #AFB1BA;
+    }
+}
