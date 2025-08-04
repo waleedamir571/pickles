@@ -49,7 +49,7 @@
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             placeholder="Your message" required></textarea>
                     </div>
-                   <br>
+                    <br>
 
                     <div class="form-group chkbx">
 
@@ -125,15 +125,15 @@
 
                 <div class="col-lg-3 col-md-12 col-sm-12 pl-45 md-pl-15 mb-30 mb-sm-10 ft-space">
                     <h3 class="web-color fw-bold"><a href="./services" target="_blank">Services</a></h3>
-                    <!-- <ul class="site-map">
-                        <li><a href="./website-design-and-development" target="_blank">Website Design and
+                    <ul class="site-map ">
+                        <li><a href="../ecommerce-website-development.php"> eCommerce Website
                                 Development</a></li>
-                        <li><a href="./mobile-app-development" target="_blank">Mobile Application Development</a></li>
-                        <li><a href="./android-app-development" target="_blank">Android App Development</a></li>
-                        <li><a href="./ios-app-development" target="_blank">iOS App Development</a></li>
-                        <li><a href="./dapp-development" target="_blank">DApp Development</a></li>
-                        <li><a href="./game-development" target="_blank">Game Development</a></li>
-                    </ul> -->
+                        <li><a href="../wordpress-design-and-development.php">WordPress
+                                design and
+                                development</a></li>
+                        <li><a href="../shopify-website-development.php">Shopify Website
+                                Development</a></li>
+                    </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-12 col-sm-12 pl-80 md-pl-15 mb-30 mb-sm-10 ft-space">
@@ -142,7 +142,7 @@
                         <li><a href="index">Home</a></li>
                         <li><a href="portfolio">Portfolio</a></li>
                         <li><a href="about-us">About</a></li>
-                       
+
                         <li><a href="contact-us">Contact Us</a></li>
                     </ul>
                 </div>
@@ -176,16 +176,13 @@
                 </div>
                 <ul class="footer-social text-center">
                     <li>
-                        <a href="https://www.facebook.com/"><span><i
-                                    class="fa fa-facebook"></i></span></a>
+                        <a href="https://www.facebook.com/"><span><i class="fa fa-facebook"></i></span></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/"><span><i
-                                    class="fa fa-linkedin"></i></span></a>
+                        <a href="https://www.linkedin.com/"><span><i class="fa fa-linkedin"></i></span></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/"><span><i
-                                    class="fa fa-instagram"></i></span></a>
+                        <a href="https://www.instagram.com/"><span><i class="fa fa-instagram"></i></span></a>
                     </li>
                 </ul>
             </div>

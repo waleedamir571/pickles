@@ -119,6 +119,31 @@
                                                     class="navtext"> Home</a> </li>
                                             <li aria-haspopup="true"><a href="./about-us"
                                                     class="navtext"> About Us</a> </li>
+                                                     <li aria-haspopup="true">
+                                                <a href="#" class="navtext">
+                                                    <span>Services</span></a>
+                                                <div class="wsshoptabing not_fullwidth wtsdepartmentmenu clearfix">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <ul class="wstliststy06 clearfix">
+                                                                    <li><a
+                                                                            href="../ecommerce-website-development.php"> eCommerce Website
+                                                                                                Development</a></li>
+                                                                    <li><a
+                                                                            href="../wordpress-design-and-development.php">WordPress
+                                                                                                design and
+                                                                                                development</a></li>
+                                                                    <li><a
+                                                                            href="../shopify-website-development.php">Shopify Website
+                                                                                                Development</a></li>
+                                                                   
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
                                           
                                             <li aria-haspopup="true"><a href="./portfolio"
                                                     class="navtext"> Portfolio</a> </li>
