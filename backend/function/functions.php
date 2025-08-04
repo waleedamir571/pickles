@@ -1002,7 +1002,7 @@ function sendEmailIllustration($message, $subject = 'Lead from noreply@hoisoluti
 function sendSlack($data)
 {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
