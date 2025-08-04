@@ -1327,8 +1327,9 @@ p.paragraph-dmc {
 }
 
 .inner-form .form-submit-button:hover {
-  color: #fff;
-  background: #EE9143;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
 }
 
 .inner-form .form-submit-button {
@@ -2524,7 +2525,10 @@ textarea {
 }
 
 .p3-box-color:hover {
-  background-color: #EE9143;
+    /* background-color: #EE9143; */
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .p3-ecommerce-bg1 {

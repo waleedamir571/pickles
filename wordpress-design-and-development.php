@@ -226,7 +226,7 @@
     <div class="container">
         <div class="row">
             <div class="text-center wow fadeinup">
-                <h2 class="text-white paragraph">Want to know more <span class="text-black">about why you</span> should
+                <h2 class="text-white paragraph">Want to know more <span class="">about why you</span> <br> should
                     trust <span class="text-black">Dev Pickles</span>?</h2>
             </div>
         </div>

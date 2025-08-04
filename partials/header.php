@@ -128,14 +128,14 @@
                                                             <div class="col">
                                                                 <ul class="wstliststy06 clearfix">
                                                                     <li><a
-                                                                            href="../ecommerce-website-development.php"> eCommerce Website
+                                                                            href="../ecommerce-website-development"> eCommerce Website
                                                                                                 Development</a></li>
                                                                     <li><a
-                                                                            href="../wordpress-design-and-development.php">WordPress
+                                                                            href="../wordpress-design-and-development">WordPress
                                                                                                 design and
                                                                                                 development</a></li>
                                                                     <li><a
-                                                                            href="../shopify-website-development.php">Shopify Website
+                                                                            href="../shopify-website-development">Shopify Website
                                                                                                 Development</a></li>
                                                                    
                                                                 </ul>

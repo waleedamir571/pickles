@@ -2463,7 +2463,7 @@ blockquote cite:before {
     03. Header Section CSS
 --------------------------*/
 .fixed-top {
-    background-color: #252525 !important;
+    background-color: #000 !important;
 }
 .full-width-header {
   position: relative;

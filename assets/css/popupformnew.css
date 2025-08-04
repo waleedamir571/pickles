@@ -432,8 +432,8 @@
 .mdlrevamp button.btns:hover {
     transition: all 0.4s ease;
     padding: 10px 80px 10px 80px;
-    border: 1px solid #EE9143;
-    color: #EE9143;
+    border: 1px solid #CE00EC;
+    color: black;
     background: #ffffff;
     border-radius: 30px;
     font-weight: 600;
