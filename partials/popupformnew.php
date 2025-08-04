@@ -56,12 +56,12 @@
                                             placeholder="Talk About Your Project"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <!-- <div class="col-lg-12">
                                     <div class="fldset">
                                         <div class="g-recaptcha" data-callback="recaptchaCallback"
                                             data-sitekey="6Le5s8kiAAAAAAybz_6EE86zmybsLtt_tdxe27l-"></div>
                                     </div>
-                                </div>
+                                </div> -->
 
 
 
@@ -70,7 +70,7 @@
                                 <div class="col-lg-12">
                                     <div class="fldset">
                                         <input name="submit" id="submit-btn-modal2" type="submit"
-                                            class="form-submit-button" disabled />
+                                            class="form-submit-button" />
                                     </div>
                                 </div>
                             </div>

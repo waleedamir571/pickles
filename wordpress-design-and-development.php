@@ -89,8 +89,8 @@
 
             <div class="col-md-5 offset-md-1 shadow-lg inner-form wow fadeInUp sm-pt-20">
                 <div class="">
-                    <form action="/backend/action/action" method="POST" class="pt-20 sm-pt-0 form form-padding-set">
-                        <input type="hidden" name="type" value="contactFormTwo">
+                    <form action="/backend/action/action.php" method="POST" class="pt-20 sm-pt-0 form form-padding-set">
+                        <input type="hidden" name="type" value="contactForm">
 
                         <div class="input-group mb-4">
                             <input type="text" name="name" class="form-control rounded-pill"
