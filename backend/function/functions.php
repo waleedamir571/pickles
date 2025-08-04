@@ -1,6 +1,6 @@
 <?php
-require_once ('../PHPMailer/class.phpmailer.php');
-require_once ('../PHPMailer/class.smtp.php');
+require_once('../PHPMailer/class.phpmailer.php');
+require_once('../PHPMailer/class.smtp.php');
 require '../config/dbc.php';
 
 function contactForm($payload, $con)
@@ -14,21 +14,20 @@ function contactForm($payload, $con)
             $date = date("Y-m-d H:i:s");
 
             $firstName = mysqli_real_escape_string($con, $payload['name']);
-            $lastName = mysqli_real_escape_string($con, $payload['last_name']);
+            $lastName = mysqli_real_escape_string($con, isset($payload['last_name']) ? $payload['last_name'] : '');
             $email = mysqli_real_escape_string($con, $payload['email']);
             $phone = mysqli_real_escape_string($con, $payload['phone']);
             $message = mysqli_real_escape_string($con, clean($payload['message']));
-            mysqli_query($con, "INSERT INTO leads(page,date,name,last_name,email,phone,message) VALUES('$page','$date','$firstName','$lastName','$email','$phone','$message')") or die(mysqli_error($con));
+            mysqli_query($con, "INSERT INTO leads(page,first_name,last_name,phone_no,email,message,created_at) VALUES('$page','$firstName','$lastName','$phone','$email','$message','$date')") or die(mysqli_error($con));
 
             //EMAIL NOTIFICATION
             $emailContent = '<p>Page : ' . $page . '</p>';
-            // $emailContent .= '<p>Date : ' . $date . '</p>';
-            $emailContent .= '<p>First-name : ' . $firstName . '</p>';
-            $emailContent .= '<p>Last-name : ' . $lastName . '</p>';
+            $emailContent .= '<p>Name : ' . $firstName . $lastName . '</p>';
             $emailContent .= '<p>Email : ' . $email . '</p>';
             $emailContent .= '<p>Phone : ' . $phone . '</p>';
             $emailContent .= '<p>Message : ' . $message . '</p>';
-            sendEmail($emailContent);
+            sendEmail($emailContent, 'Lead from info@devpickles.com', 'info@devpickles.com', 'info@devpickles.com', 'Dev Pickles', $email);
+
 
             //SLACK NOTIFICATION
             if ($page !== null) {
@@ -40,6 +39,36 @@ function contactForm($payload, $con)
         }
     }
 }
+
+function sendEmails($name, $email, $adminSubject, $adminBody)
+{
+    $mail = new PHPMailer(true);
+    try {
+        $mail->isSMTP();
+        $mail->Host = '.hostinger.com'; // Replace with your SMTP host
+        $mail->SMTPAuth = true;
+        $mail->Username = 'info@devpickles.com'; // email
+        $mail->Password = 'CybertronLabs@2026'; // password
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
+
+        $mail->setFrom('info@devpickles.com', 'Dev Pickles');
+
+        // Admin email
+        $mail->addAddress('info@devpickles.com', 'Dev Pickles');
+        $mail->isHTML(true);
+        $mail->Subject = $adminSubject;
+        $mail->Body = $adminBody;
+        $mail->send();
+        echo "Email sent successfully.";
+        // header('Location: ../../thank-you.php');
+        // exit();
+
+    } catch (Exception $e) {
+        echo "Email error: {$mail->ErrorInfo}";
+    }
+}
+
 
 function emailForm($payload, $con)
 {
@@ -823,8 +852,8 @@ function illustrativeForm($payload, $con)
 
             // SLACK NOTIFICATION
 
-                $slackContent = json_encode(array("text" => "Hi Team , \n\t We have received a new lead . Please check the following details.  \n \n Page : " . $payload['page'] . " \n Name : " . $payload['name'] . " \n Email : " . $payload['email'] . " \n Phone : " . $payload['phone'] . " \n Message : " . $message));
-                sendSlack($slackContent, 'https://hooks.slack.com/services/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');
+            $slackContent = json_encode(array("text" => "Hi Team , \n\t We have received a new lead . Please check the following details.  \n \n Page : " . $payload['page'] . " \n Name : " . $payload['name'] . " \n Email : " . $payload['email'] . " \n Phone : " . $payload['phone'] . " \n Message : " . $message));
+            sendSlack($slackContent, 'https://hooks.slack.com/services/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');
 
         } catch (Exception $e) {
             die($e->getMessage());
@@ -834,63 +863,68 @@ function illustrativeForm($payload, $con)
 
 // --------------------------------------HELPERS------------------------------------------
 
-function sendEmail($message, $subject = 'Lead from noreply@hoisolutions.com', $to = 'sales@hoisolutions.com', $cc1 = 'marketing@hoisolutions.com', $fromName = 'HOI-Solutions')
-{
+function sendEmail(
+    $message,
+    $subject = 'Lead from info@devpickles.com',
+    $to = 'info@devpickles.com',
+    $cc1 = 'info@devpickles.com',
+    $fromName = 'Dev Pickles',
+    $userEmail = null,
+    $userName = 'Valued User'
+) {
+    require_once('../PHPMailer/class.phpmailer.php');
+    require_once('../PHPMailer/class.smtp.php');
+
+    // === 1. Send Lead to You ===
     $mail = new PHPMailer;
-    $mail->IsSMTP();
-    $mail->Host = 'mail.hoisolutions.com';
+    $mail->isSMTP();
+    $mail->Host = 'smtp.hostinger.com';
     $mail->Port = 587;
     $mail->SMTPDebug = 0;
     $mail->SMTPAuth = true;
-    $mail->Username = 'noreply@hoisolutions.com';
-    $mail->Password = 'w14(xmq{w53F';
+    $mail->Username = 'info@devpickles.com';
+    $mail->Password = 'CybertronLabs@2026';
     $mail->isHTML(true);
-    $mail->From = 'noreply@hoisolutions.com';
-    $mail->FromName = $fromName;
-    $mail->AddAddress($to);
-    $mail->AddCC($cc1);
+    $mail->setFrom('info@devpickles.com', $fromName);
+    $mail->addAddress($to);
+    $mail->addCC($cc1);
     $mail->Subject = $subject;
     $mail->Body = $message;
+
     if (!$mail->send()) {
-        //echo 'Message could not be sent.';
-        //echo 'Mailer Error: ' . $mail->ErrorInfo;
-        //exit;
+        error_log('Lead email failed: ' . $mail->ErrorInfo);
     }
 
-    // Auto-reply email
-    // $autoReplySubject = 'Thank you for contacting Hoisolutions';
-    // $autoReplyMessage = "Thank you for getting in touch with Hoisolutions! Your message has been received, and we appreciate your interest. Our team is currently reviewing your inquiry and will get back to you as soon as possible.";
-
-    $autoReplySubject = 'Dev Pickles has Received Your Message!';
-    $autoReplyMessage = "
-            <p><b>Dear {$_POST['name']},</b></p>
-            <p>Thank you for reaching out to Dev Pickles! Our Dev Pickles have received your query and are working on it as of now. Expect to hear back from us within 24 hours. For quick answers, you might find our <a href='https://hoisolutions.com/faq'>FAQ</a> page helpful.</p>
-            <p>Thanks for your patience and interest in our work!</p>
-            <br><br>
-            <p><b>Warm regards,</b></p>
-            <p>The Dev Pickles Team.</p>
+    // === 2. Auto-Reply to User (if valid email provided) ===
+    if (!empty($userEmail) && filter_var($userEmail, FILTER_VALIDATE_EMAIL)) {
+        $autoReply = new PHPMailer;
+        $autoReply->isSMTP();
+        $autoReply->Host = 'smtp.hostinger.com';
+        $autoReply->Port = 587;
+        $autoReply->SMTPDebug = 0;
+        $autoReply->SMTPAuth = true;
+        $autoReply->Username = 'info@devpickles.com';
+        $autoReply->Password = 'CybertronLabs@2026';
+        $autoReply->isHTML(true);
+        $autoReply->setFrom('info@devpickles.com', $fromName);
+        $autoReply->addAddress($userEmail);
+        $autoReply->Subject = 'Dev Pickles has Received Your Message!';
+        $autoReply->Body = "
+            <p><strong>Dear {$userName},</strong></p>
+            <p>Thank you for reaching out to Dev Pickles! Our team is reviewing your message and will get back to you within 24 hours.</p>
+            <p>For quick answers, visit our <a href='https://hoisolutions.com/faq'>FAQ page</a>.</p>
             <br>
-            <img src='https://hoisolutions.com/assets/images/logo-dark.png' alt='hoisolutions' style='max-width: 200px;'>
-            <p>Email: <a href='mailto:info@devpickles.com'>info@devpickles.com</a>
-            <br>Phone number: <a href='tel:(949) 323-3170'>(949) 323-3170</a>
-            <br>Address: 5000 Birch St., West Tower, Suite 3000 Newport Beach, CA 92660</p>
+            <p><strong>Best regards,</strong><br>The Dev Pickles Team</p>
+            <img src='https://hoisolutions.com/assets/images/logo-dark.png' alt='Dev Pickles' style='max-width: 200px;'>
+            <p>Email: <a href='mailto:info@devpickles.com'>info@devpickles.com</a><br>
+            Phone: <a href='tel:(949)323-3170'>(949) 323-3170</a><br>
+            Address: 5000 Birch St., West Tower, Suite 3000, Newport Beach, CA 92660</p>
         ";
 
-    $autoReply = new PHPMailer;
-    $autoReply->isSMTP();
-    $autoReply->Host = 'mail.hoisolutions.com';
-    $autoReply->Port = 587;
-    $autoReply->SMTPDebug = 0;
-    $autoReply->SMTPAuth = true;
-    $autoReply->Username = 'noreply@hoisolutions.com';
-    $autoReply->Password = 'w14(xmq{w53F';
-    $autoReply->isHTML(true);
-    $autoReply->From = 'noreply@hoisolutions.com';
-    $autoReply->FromName = $fromName;
-    $autoReply->AddAddress($_POST["email"]);  // Send auto-reply to the same person who submitted the form	
-    $autoReply->Subject = $autoReplySubject;
-    $autoReply->Body = $autoReplyMessage;
-    $autoReply->send();
+        if (!$autoReply->send()) {
+            error_log('Auto-reply failed: ' . $autoReply->ErrorInfo);
+        }
+    }
 }
 
 //MULTIPLE EMAILS
@@ -968,7 +1002,7 @@ function sendEmailIllustration($message, $subject = 'Lead from noreply@hoisoluti
 function sendSlack($data)
 {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

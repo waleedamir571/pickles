@@ -22,8 +22,8 @@
                 <h4 class="fs-42 fw-600 fs20m sm-pb-40 sm-pt-10">Share your <span class="web-color">project details
                     </span>with us.
                 </h4>
-                <form action="/backend/action/action" method="POST" class="pt-20 sm-pt-0">
-                    <input type="hidden" name="type" value="modalForm">
+                <form action="/backend/action/action.php" method="POST" class="pt-20 sm-pt-0">
+                    <input type="hidden" name="type" value="contactForm">
                     <div class="input-group mb-4">
                         <input type="text" name="name" class="form-control rounded-pill"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
@@ -64,7 +64,6 @@
                             data rates may apply.
                             <br>
 
-
                         </label>
 
 
@@ -76,20 +75,15 @@
 
                         <label class="ml-2"> <input type="checkbox" id="agree" name="agree" autocomplete="off"
                                 onclick="dynamicForm($(this));"> &nbsp;I agree to receive emails and phone calls</label>
-
-
-
-
-
                     </div>
                     <br>
 
-                    <div class="input-group mb-4">
+                    <!-- <div class="input-group mb-4">
                         <div class="g-recaptcha" data-callback="recaptchaCallback"
                             data-sitekey="6Le5s8kiAAAAAAybz_6EE86zmybsLtt_tdxe27l-"></div>
-                    </div>
+                    </div> -->
                     <div class="wow fadeInUp">
-                        <button class="btn form-submit-button rounded-pill" type="submit" name="submit" disabled>Book a
+                        <button class="btn form-submit-button rounded-pill" type="submit" name="submit">Book a
                             Consultation
                             &nbsp;</button>
                     </div>
