@@ -24,9 +24,8 @@
                 <div class="row">
                     <div class="ban-form">
                         <!--<form class="form-get-quote" id="ordernow-form" action="https://agilewebstudios.com/shopify/javascript;" method="post">-->
-                        <form method="POST" action="/backend/action/action">
-                            <input type="hidden" name="type" value="modalForm">
-                            <input type="hidden" name="cta" class="cta" value="">
+                        <form method="POST" action="/backend/action/action.php">
+                            <input type="hidden" name="type" value="contactForm">
                             <div class="alert alert-danger error" style="display: none;"></div>
                             <div class="row">
                                 <div class="col-lg-12">
@@ -64,7 +63,7 @@
                                     </div>
                                 </div>
 
-                                
+
 
                                 <input name="page_link" type="hidden" value="#0">
 
@@ -93,9 +92,6 @@
                 <div class="row">
                     <div class="col-xl-5 leftside hidden-sm">
                         <div class="contact-text">
-                            <!-- <img class="col-img hidden-sm hidden-tb" src="assets/images/forms/pop-up.jpg"
-                                alt="Dev Pickles Software Development Services"
-                                title="Dev PicklesSolution Pop-up Form Image"> -->
                             <h5>Boost Your Business with Up to</h5>
                             <h4><span>30% </span>OFF</h4>
                             <h3>On All the Services</h3>
@@ -104,9 +100,8 @@
                     <div class="col-xl-7 rightside">
                         <div class="contact-form-revamp">
                             <h6><span>Fill Out </span>The Form!</h6>
-                            <form id="contact-modal" method="POST" action="/backend/action/action">
-                                <input type="hidden" name="type" value="modalForm">
-                                <input type="hidden" name="cta" class="cta" value="">
+                            <form id="contact-modal" method="POST" action="/backend/action/action.php">
+                                <input type="hidden" name="type" value="contactForm">
 
                                 <div class="form-group">
                                     <label for="lblname" class="form-label">Enter Name</label>
@@ -138,7 +133,6 @@
                                 </div>
 
                                 <div class="form-group chkbx">
-
                                     <input type="checkbox" id="agree" name="agree">
                                     <label for="agree" class="ml-2 chkagree">By checking this box, you give consent to
                                         <span class="acme"> <a href="#">Dev Pickles</a></span>
@@ -150,14 +144,12 @@
                                         purchase. Msg &
                                         data rates may apply. Msg frequency varies. Reply HELP for assistance or STOP to
                                         opt out of
-                                        receiving messages. 
+                                        receiving messages.
                                         Sign Up for Email and Phone Calls
                                         <br>
-
-
                                     </label>
                                 </div>
-                                
+
                                 <div id="checkbox-error">Please confirm your agreement before submitting.</div>
                                 <!-- <div class="form-group pt-2">
                                     <div class="g-recaptcha" data-callback="recaptchaCallback"
@@ -166,7 +158,8 @@
 
 
                                 <button class="btns form-submit-button mt-2" type="submit" name="submit">Send
-                                    Message</button>
+                                    Message
+                                </button>
                             </form>
                             <div class="row">
                                 <div class="col-md-6">
@@ -196,26 +189,30 @@
 </section>
 <!-- End Modal Form 60 Sec-->
 
-<script>
-    // JavaScript to validate the checkbox on form submission
-    document.getElementById('contact-modal').addEventListener('submit', function (event) {
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('contact-form-modal');
         const agreeCheckbox = document.getElementById('agree');
         const errorText = document.getElementById('checkbox-error');
 
-        if (!agreeCheckbox.checked) {
-            event.preventDefault(); // Prevent form submission
-            errorText.style.display = 'block'; // Show error message
-        } else {
-            errorText.style.display = 'none'; // Hide error message
+        // Hide error message on page load
+        if (errorText) errorText.style.display = 'none';
+
+        if (form) {
+            form.addEventListener('submit', function (event) {
+                if (!agreeCheckbox.checked) {
+                    event.preventDefault();
+                    errorText.style.display = 'block';
+                } else {
+                    errorText.style.display = 'none';
+                }
+            });
+        }
+
+        if (agreeCheckbox) {
+            agreeCheckbox.addEventListener('change', function () {
+                errorText.style.display = this.checked ? 'none' : 'block';
+            });
         }
     });
-
-    // JavaScript to handle real-time hiding of error when checkbox is checked
-    document.getElementById('agree').addEventListener('change', function () {
-        const errorText = document.getElementById('checkbox-error');
-
-        if (this.checked) {
-            errorText.style.display = 'none'; // Hide error message
-        }
-    });
-</script>
+</script> -->

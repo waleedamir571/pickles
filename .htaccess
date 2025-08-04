@@ -14,6 +14,7 @@ RewriteRule ^index\.php$ / [L,R=301]
 
 # Redirect any .php URL to clean URL (e.g., /about.php to /about)
 RewriteCond %{THE_REQUEST} \s([^\s]+)\.php[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/backend/action/ [NC]
 RewriteRule ^(.*)\.php$ /$1 [L,R=301]
 
 # Handle requests for URLs without .php extension

@@ -4,6 +4,9 @@ if (isset($_POST['type'])) {
     $_POST['page'] = $_SERVER['HTTP_REFERER'];
     date_default_timezone_set("Asia/Karachi");
     switch ($_POST['type']) {
+        case 'contactForm':
+            contactForm($_POST, $connection);
+            break;
         case 'popup-form':
             popUpForm($_POST, $connection, $_REQUEST);
             break;
@@ -24,9 +27,6 @@ if (isset($_POST['type'])) {
             break;
         case 'questionnaire':
             questionnaire($_POST, $connection);
-            break;
-        case 'contactForm':
-            contactForm($_POST, $connection);
             break;
         case 'modalForm':
             modalForm($_POST, $connection);
@@ -59,24 +59,25 @@ if (isset($_POST['type'])) {
             publishingJourney($_POST, $connection);
             break;
     }
-    header('Location: https://hoisolutions.com/thank-you');
+    header('Location: /thank-you');
+    exit;
 }
 
-if (isset($_POST['illustration'])) {
-    $_POST['page'] = $_SERVER['HTTP_REFERER'];
-    date_default_timezone_set("Asia/Karachi");
-    $current_month = date('m');
-    $contents = implode(PHP_EOL, $_SERVER);
-    $contents .= PHP_EOL . PHP_EOL;
-    //Save string to log, use FILE_APPEND to append.
-    file_put_contents('./log_' . date("j.n.Y") . '.log', $contents, FILE_APPEND);
+// if (isset($_POST['illustration'])) {
+//     $_POST['page'] = $_SERVER['HTTP_REFERER'];
+//     date_default_timezone_set("Asia/Karachi");
+//     $current_month = date('m');
+//     $contents = implode(PHP_EOL, $_SERVER);
+//     $contents .= PHP_EOL . PHP_EOL;
+//     //Save string to log, use FILE_APPEND to append.
+//     file_put_contents('./log_' . date("j.n.Y") . '.log', $contents, FILE_APPEND);
 
-    if (isset($_POST["web_form"]) && $_POST['web_form'] == (number_format($current_month) - 1)) {
-        switch ($_POST['illustration']) {
-            case 'illustrativeForm':
-                illustrativeForm($_POST, $connection);
-                break;
-        }
-    }
-    header('Location: https://hancockghostwriters.com/illustration-thank-you');
-}
+//     if (isset($_POST["web_form"]) && $_POST['web_form'] == (number_format($current_month) - 1)) {
+//         switch ($_POST['illustration']) {
+//             case 'illustrativeForm':
+//                 illustrativeForm($_POST, $connection);
+//                 break;
+//         }
+//     }
+//     header('Location: https://hancockghostwriters.com/illustration-thank-you');
+// }

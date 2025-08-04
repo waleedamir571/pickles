@@ -49,7 +49,7 @@
                 </div>
                 <h4 class="fs-40 fs-20m fw-600">Share your <span class="web-color">project details </span>with us.
                 </h4>
-                <form action="/backend/action/action" method="POST" class="pt-20 sm-pt-0">
+                <form action="/backend/action/action.php" method="POST" class="pt-20 sm-pt-0">
                     <input type="hidden" name="type" value="contactForm">
                     <div class="input-group mb-4">
                         <input type="text" name="name" class="form-control rounded-pill"
