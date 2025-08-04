@@ -554,10 +554,13 @@ video {
 }
 
 .wsmenu>.wsmenu-list>li>.wsshoptabing.wtsdepartmentmenu {
-  background: #EE9143;
-  border-bottom: solid 1px #EE9143;
-  border-radius: 0px 0px 10px 10px;
-  min-width: 250px !important;
+    background: #EE9143;
+    /* border-bottom: solid 1px #EE9143; */
+    border-radius: 0px 0px 10px 10px;
+    min-width: 250px !important;
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
 
 
@@ -786,10 +789,9 @@ video {
 }
 
 .wsmenu>.wsmenu-list>li .wstliststy06 li a:hover {
-  color: #EE9143;
-  background-color: #fff !important;
-  border-radius: 12px;
-
+    color: black;
+    background-color: #fff !important;
+    border-radius: 12px;
 }
 
 .wsmenu>.wsmenu-list>li .wstliststy06 li.wstheading {
