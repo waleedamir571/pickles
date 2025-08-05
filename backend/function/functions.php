@@ -912,13 +912,13 @@ function sendEmail(
         $autoReply->Body = "
             <p><strong>Dear {$userName},</strong></p>
             <p>Thank you for reaching out to Dev Pickles! Our team is reviewing your message and will get back to you within 24 hours.</p>
-            <p>For quick answers, visit our <a href='https://hoisolutions.com/faq'>FAQ page</a>.</p>
+           
             <br>
             <p><strong>Best regards,</strong><br>The Dev Pickles Team</p>
-            <img src='https://hoisolutions.com/assets/images/logo-dark.png' alt='Dev Pickles' style='max-width: 200px;'>
+            <img src='https://devpickles.com/assets/images/logo1.jpg' alt='Dev Pickles' style='max-width: 200px;'>
             <p>Email: <a href='mailto:info@devpickles.com'>info@devpickles.com</a><br>
-            Phone: <a href='tel:(949)323-3170'>(949) 323-3170</a><br>
-            Address: 5000 Birch St., West Tower, Suite 3000, Newport Beach, CA 92660</p>
+            Phone: <a href='tel:(551) 290-8897'>(551) 290-8897</a><br>
+            Address: 530 Main St Unit 3A #289, Chester, NJ 07930, United States</p>
         ";
 
         if (!$autoReply->send()) {
@@ -1002,7 +1002,7 @@ function sendEmailIllustration($message, $subject = 'Lead from noreply@hoisoluti
 function sendSlack($data)
 {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, ['payload' => $data]);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

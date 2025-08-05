@@ -201,8 +201,7 @@
                                             </p>
                                         </div>
                                         <div class="explore-more">
-                                            <a class="explore" href="#"
-                                                target="_blank">Explore
+                                            <a class="explore" href="#" target="_blank">Explore
                                                 More....</a>
                                         </div>
                                     </div>

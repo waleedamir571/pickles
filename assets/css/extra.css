@@ -4228,7 +4228,8 @@ span.k-plus::before {
   top: 9px;
   height: 2.5px;
   width: 110px;
-  background-color: #EE9143;
+  /* background-color: #EE9143; */
+      background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 

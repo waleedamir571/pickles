@@ -76,10 +76,10 @@
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             placeholder="Your message" required></textarea>
                     </div>
-                    <div class="input-group mb-4">
+                    <!-- <div class="input-group mb-4">
                         <div class="g-recaptcha" data-callback="recaptchaCallback"
                             data-sitekey="6Le5s8kiAAAAAAybz_6EE86zmybsLtt_tdxe27l-"></div>
-                    </div>
+                    </div> -->
                     <div class="wow fadeInUp">
                         <button class="btn form-submit-button rounded-pill" type="submit" name="submit" disabled>Book a
                             Consultation

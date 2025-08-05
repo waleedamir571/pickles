@@ -126,12 +126,12 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 pl-45 md-pl-15 mb-30 mb-sm-10 ft-space">
                     <h3 class="web-color fw-bold"><a href="./services" target="_blank">Services</a></h3>
                     <ul class="site-map ">
-                        <li><a href="../ecommerce-website-development.php"> eCommerce Website
+                        <li><a href="../ecommerce-website-development"> eCommerce Website
                                 Development</a></li>
-                        <li><a href="../wordpress-design-and-development.php">WordPress
+                        <li><a href="../wordpress-design-and-development">WordPress
                                 design and
                                 development</a></li>
-                        <li><a href="../shopify-website-development.php">Shopify Website
+                        <li><a href="../shopify-website-development">Shopify Website
                                 Development</a></li>
                     </ul>
                 </div>
@@ -167,8 +167,7 @@
                             </div>
                         </li> -->
                         <li>
-                            <div class="desc address"><a href="">2292 N IRONWOOD DR
-                                    LOT 16 , APACHE JUNCTION, AZ 85120, USA</a>
+                            <div class="desc address"><a href="">530 Main St Unit 3A #289, Chester, NJ 07930, United States</a>
                             </div>
                         </li>
 
@@ -176,13 +175,13 @@
                 </div>
                 <ul class="footer-social text-center">
                     <li>
-                        <a href="https://www.facebook.com/"><span><i class="fa fa-facebook"></i></span></a>
+                        <a href="https://www.facebook.com/share/1EvwDDffNb/"><span><i class="fa fa-facebook"></i></span></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/"><span><i class="fa fa-linkedin"></i></span></a>
+                        <a href="https://www.linkedin.com/company/dev-pickles/"><span><i class="fa fa-linkedin"></i></span></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/"><span><i class="fa fa-instagram"></i></span></a>
+                        <a href="https://www.instagram.com/devpickles/"><span><i class="fa fa-instagram"></i></span></a>
                     </li>
                 </ul>
             </div>

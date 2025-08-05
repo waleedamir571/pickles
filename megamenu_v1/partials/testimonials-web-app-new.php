@@ -21,7 +21,9 @@
                             <div class="picture-hover">
                                 <div class="card9">
                                     <div class="picture">
-                                        <img src="assets/images/testimonials/webpp-1.png" alt="Dev Pickles Review James Brown" title="Dev Pickles Review Client James Brown" 
+                                        <img src="assets/images/testimonials/webpp-1.png"
+                                            alt="Dev Pickles Review James Brown"
+                                            title="Dev Pickles Review Client James Brown"
                                             class="img-fluid rounded-circle">
                                     </div>
                                     <p class="lh-lg">
@@ -33,7 +35,8 @@
                                         since we have gone live.
                                     </p>
                                     <div class="card-title">
-                                        <img class="card-quote" src="assets/images/testimonials/quote-up.svg" alt="Card Image Cap" title="Dev Pickles Solution Reviews Card Image Cap"   >
+                                        <img class="card-quote" src="assets/images/testimonials/quote-up.svg"
+                                            alt="Card Image Cap" title="Dev Pickles Solution Reviews Card Image Cap">
                                     </div>
                                     <!-- <a class="smb-testi" onclick="myFunctiontestimob1()" id="myBtntestimob1">Read
                                         more</a> -->
@@ -57,17 +60,21 @@
                             <div class="picture-hover">
                                 <div class="card9">
                                     <div class="picture">
-                                        <img src="assets/images/testimonials/webapp-2.png" alt="Dev Pickles Review Elijah Jones"	title="Dev Pickles Review Client Elijah Jones" 
+                                        <img src="assets/images/testimonials/webapp-2.png"
+                                            alt="Dev Pickles Review Elijah Jones"
+                                            title="Dev Pickles Review Client Elijah Jones"
                                             class="img-fluid rounded-circle">
                                     </div>
                                     <p class="lh-lg">
                                         I want to take a moment to give a shout-out to Dev Pickles for helping me out
                                         with fixing my web app. I am a dentist and I was using a web app to book
-                                        appointments online. I hired Dev Pickles for quality assurance and maintenance. The
+                                        appointments online. I hired Dev Pickles for quality assurance and maintenance.
+                                        The
                                         process was smooth and deliverables were shared timely. Thanks, Dev Pickles.
                                     </p>
                                     <div class="card-title">
-                                        <img class="card-quote" src="assets/images/testimonials/quote-up.svg" alt="Card Image Cap" title="Dev Pickles Solution Reviews Card Image Cap" >
+                                        <img class="card-quote" src="assets/images/testimonials/quote-up.svg"
+                                            alt="Card Image Cap" title="Dev Pickles Solution Reviews Card Image Cap">
                                     </div>
                                     <!-- <a class="smb-testi" onclick="myFunctiontestimob1()" id="myBtntestimob1">Read
                                         more</a> -->
@@ -90,16 +97,20 @@
                             <div class="picture-hover">
                                 <div class="card9">
                                     <div class="picture">
-                                        <img src="assets/images/testimonials/webapp-3.png" alt="Dev Pickles Review William Garcia" title="Dev Pickles Review Client William Garcia" 
+                                        <img src="assets/images/testimonials/webapp-3.png"
+                                            alt="Dev Pickles Review William Garcia"
+                                            title="Dev Pickles Review Client William Garcia"
                                             class="img-fluid rounded-circle">
                                     </div>
                                     <p class="lh-lg">
                                         Dev Pickles is currently working on my company’s internal communication and
                                         data exchange portal. They have got some creative guys in the design department.
-                                        We were impressed with Dev Pickles being in-budget and on-time with expected milestones.
+                                        We were impressed with Dev Pickles being in-budget and on-time with expected
+                                        milestones.
                                     </p>
                                     <div class="card-title">
-                                        <img class="card-quote" src="assets/images/testimonials/quote-up.svg" alt="Card Image Cap" title="Dev Pickles Solution Reviews Card Image Cap" >
+                                        <img class="card-quote" src="assets/images/testimonials/quote-up.svg"
+                                            alt="Card Image Cap" title="Dev Pickles Solution Reviews Card Image Cap">
                                     </div>
                                     <!-- <a class="smb-testi" onclick="myFunctiontestimob1()" id="myBtntestimob1">Read
                                         more</a> -->

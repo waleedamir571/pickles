@@ -249,7 +249,191 @@
 </section>
 
 <!-- Portfolio Section End -->
-<?php include 'partials/portfolio-main.php' ?>
+<section class="lazy portfolio-index-section page-spacing" id="portfolio">
+    <div class="container">
+        <div class="row wow fadeInDown">
+            <div class="offset-md-3 sec-title">
+                <div class=" portfolio-line text-black">PORTFOLIO</div>
+            </div>
+        </div>
+        <div class="row wow fadeInDown">
+            <div class="col-md-6 offset-md-3 text-center">
+                <h2 class="sm-pt-15 fs-20m pb-50 sm-pb-30">We bring our <span class="web-color">clients’ visions</span>
+                    to digital
+                    reality.
+                </h2>
+            </div>
+        </div>
+        <!-- <div class="portfolio-menu mt-2 mb-4">
+            <nav class="controls">
+                <button type="button" class="control outline mixitup-control-active"
+                    data-filter=".web-app">Fashion and Clothing</button>
+                <button type="button" class="control outline" data-filter=".jewelery">Jewelery</button>
+                <button type="button" class="control outline" data-filter=".beauty-and-cosmetics">Beauty and
+                    Cosmetics</button>
+                <button type="button" class="control outline" data-filter=".artwork-and-frames">Artwork and
+                    Frames</button>
+                <button type="button" class="control outline" data-filter=".kids-and-moms">Kids and Moms</button>
+                <button type="button" class="control outline" data-filter=".food-and-drinks">Food and
+                    Drinks</button>
+                <button type="button" class="control outline" data-filter=".hair-and-hair-accessories">Hair and Hair
+                    Accessories</button>
+                <button type="button" class="control outline" data-filter=".home-and-decor">Home and Decor</button>
+                <button type="button" class="control outline" data-filter=".medical-and-supplements">Medical and
+                    Supplements</button>
+                <button type="button" class="control outline" data-filter=".electronics-and-automobiles">Electronics
+                    and Automobiles</button>
+                <button type="button" class="control outline" data-filter=".gym-and-fitness">Gym and
+                    Fitness</button>
+                <button type="button" class="control outline" data-filter=".women-clothing">Women Clothing</button>
+                <button type="button" class="control outline" data-filter=".men-clothing">Men Clothing</button>
+                <button type="button" class="control outline" data-filter=".subscription-store">Subscription
+                    Store</button>
+                <button type="button" class="control outline" data-filter=".coffee-stores">Coffee Stores</button>
+                <button type="button" class="control outline" data-filter=".shoes-stores">Shoes Stores</button>
+                <button type="button" class="control outline" data-filter=".premium-stores">Premium Stores</button>
+            </nav>
+        </div> -->
+        <ul class="row portfolio-index-item" id="MixItUp14DDBD">
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/1.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 1" title="HOI Solution Web App Mockup 1">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/1.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/2.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 2" title="HOI Solution Web App Mockup 2">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/2.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/3.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 3" title="HOI Solution Web App Mockup 3">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/3.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/4.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 4" title="HOI Solution Web App Mockup 4">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/4.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/5.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 5" title="HOI Solution Web App Mockup 5">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/5.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/6.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 6" title="HOI Solution Web App Mockup 6">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/6.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/7.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 7" title="HOI Solution Web App Mockup 7">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/7.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/8.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 8" title="HOI Solution Web App Mockup 8">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/8.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
+                <img class="lazy" src="assets/images/mockup/shopify/Header/9.jpg" itemprop="thumbnail"
+                    alt="HOI Solutions Web App Development Mockup 9" title="HOI Solution Web App Mockup 9">
+                <div class="portfolio-index-overlay">
+                    <div class="overlay-content">
+                        <p class="category"></p>
+                        <a data-fancybox="item" title="click to zoom-in" href="assets/images/mockup/shopify/9.webp">
+                            <div class="magnify-icon">
+                                <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="text-center" data-wow-delay="900ms" data-wow-duration="2000ms pt-0">
+        <a class=" btn load-more-index" href="portfolio" target="_blank">See More Portfolio&nbsp;</a>
+    </div>
+</section>
+
 <!-- Portfolio Section End -->
 
 <section class="pricingrevamp pricing-wrapper page-spacing-topnull">
@@ -277,7 +461,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$599 <span>$1199</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -321,7 +505,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -341,7 +525,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$1299 <span>$2599</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -405,7 +589,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -421,7 +605,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$1999 <span>$5000</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -496,7 +680,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -514,7 +698,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$4499 <span>$8999</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -612,7 +796,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>

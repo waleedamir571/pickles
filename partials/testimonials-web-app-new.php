@@ -64,7 +64,7 @@
                                         I want to take a moment to give a shout-out to Dev Pickles for helping me out
                                         with fixing my web app. I am a dentist and I was using a web app to book
                                         appointments online. I hired Dev Picklesfor quality assurance and maintenance. The
-                                        process was smooth and deliverables were shared timely. Thanks, HOI.
+                                        process was smooth and deliverables were shared timely. Thanks, Dev Pickles.
                                     </p>
                                     <div class="card-title">
                                         <img class="card-quote" src="assets/images/testimonials/quote-up.svg" alt="Card Image Cap" title="Dev PicklesSolution Reviews Card Image Cap" >

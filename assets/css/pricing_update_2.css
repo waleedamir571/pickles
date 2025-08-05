@@ -43,9 +43,9 @@
     cursor: pointer;
 }
 
-.pricingrevamp .main:hover {
-    /* position: relative;
-    bottom: 40px; */
+.pricingrevamp .main:hover
+
+ {
     /* border: 4px solid rgba(238, 145, 67, 0.4); */
     transition: all 0.3s ease;
     background: #ffffff;
@@ -53,8 +53,9 @@
     border-radius: 20px;
     text-align: center;
     transform: scale(1.03);
+    border: 2px solid #CE00EC;
+    /* box-shadow: 0 0 50px #cccccc; */
 }
-
 .pricingrevamp .main.mp:hover {
     transform: none;
 }
@@ -63,7 +64,7 @@
     position: relative;
     bottom: 80px;
     background: #ffffff;
-    border: 4px solid #CE00EC;
+    /* border: 4px solid #CE00EC; */
     box-shadow: 0 0 50px #cccccc;
     border-radius: 20px;
     text-align: center;

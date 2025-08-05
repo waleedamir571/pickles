@@ -25,6 +25,11 @@ body {
 
 }
 
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+
 /* .row.sm-pt-40 {
   padding-top: 19%;
 } */
@@ -12162,9 +12167,8 @@ body .search-modal .close:hover {
 }
 
 .rs-footer.style1 .footer-top .address-widget li .desc a:hover {
-  color: #EE9143;
+    color: #CE00EC;
 }
-
 .rs-footer.style1 .footer-top .address-widget li i {
   color: #f2541b;
 }

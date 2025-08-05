@@ -263,7 +263,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$249 <span>$399.00</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -290,7 +290,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -310,7 +310,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$349 <span>$699.00</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -338,7 +338,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -354,7 +354,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$599 <span>$1199.00</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -390,7 +390,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -408,7 +408,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$1249 <span>$1999.00</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -451,7 +451,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -468,7 +468,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$1949 <span>$3199.00</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -513,7 +513,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
@@ -530,7 +530,7 @@
                     </div>
                     <div class="inner2">
                         <h4>$2499 <span>$4999.00</span></h4>
-                        <a href="tel:(949) 323-3170" class="brand-black-btn btn-props">Call Now</a>
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
                     </div>
                     <div class="inner3">
                         <ul>
@@ -589,7 +589,7 @@
                         </p>
                         <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
                         </p>
-                        <p class="p3"><a href="tel:(949) 323-3170">(949) 323-3170</a></p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
                     </div>
                     <div class="inner5">
                         <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>

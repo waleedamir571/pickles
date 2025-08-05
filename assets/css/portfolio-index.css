@@ -111,16 +111,17 @@
 .portfolio-index-item:hover .portfolio-index-overlay::before {
     width: 80%;
     height: 80%;
-    border-top: 1px solid#EE9143;
-    border-right: 1px solid#EE9143;
+    border-top: 1px solid #CE00EC;
+    border-right: 1px solid #CE00EC;
+    
     transition: width .1s ease 0.3s, height .1s ease .5s
 }
 
 .portfolio-index-item:hover .portfolio-index-overlay::after {
     width: 80%;
     height: 80%;
-    border-bottom: 1px solid#EE9143;
-    border-left: 1px solid#EE9143;
+    border-bottom: 1px solid #CE00EC;
+    border-left: 1px solid #CE00EC;
     transition: width .1s ease 0.6s, height .1s ease .7s
 }
 

@@ -74,9 +74,9 @@
                             <div class="col-md-6">
                                 <div class="form-footer-right">
                                     <!-- <a href="#0"><i class="fa fa-twitter icon-twitter"></i></a> -->
-                                    <a href="#0"><i class="fa fa-facebook icon-fb"></i></a>
-                                    <a href="#0"><i class="fa fa-linkedin icon-linkedin"></i></a>
-                                    <a href="#0"><i class="fa fa-instagram icon-insta"></i></a>
+                                    <a href="https://www.facebook.com/share/1EvwDDffNb/"><i class="fa fa-facebook icon-fb"></i></a>
+                                    <a href="https://www.linkedin.com/company/dev-pickles/"><i class="fa fa-linkedin icon-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/devpickles/"><i class="fa fa-instagram icon-insta"></i></a>
                                 </div>
                             </div>
                         </div>
