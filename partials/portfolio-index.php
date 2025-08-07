@@ -15,13 +15,15 @@
         </div>
         <div class="portfolio-menu mt-2 mb-4">
             <nav class="controls">
-                <button type="button" class="control outline mixitup-control-active" data-filter=".web-app">Website Design</button>
+                <button type="button" class="control outline mixitup-control-active" data-filter=".web-app">Website
+                    Design</button>
                 <button type="button" class="control outline" data-filter=".mobile-app">Application Design</button>
             </nav>
         </div>
         <ul class="row portfolio-index-item" id="MixItUp14DDBD">
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/1.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 1" title="Dev PicklesSolution Web App Mockup 1">
+                <img class="lazy" src="assets/images/mockup/1.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 1" title="Dev PicklesSolution Web App Mockup 1">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -34,7 +36,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/2.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 2" title="Dev PicklesSolution Web App Mockup 2">
+                <img class="lazy" src="assets/images/mockup/2.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 2" title="Dev PicklesSolution Web App Mockup 2">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -47,7 +50,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/3.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 3" title="Dev PicklesSolution Web App Mockup 3">
+                <img class="lazy" src="assets/images/mockup/3.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 3" title="Dev PicklesSolution Web App Mockup 3">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -60,7 +64,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/4.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 4" title="Dev PicklesSolution Web App Mockup 4">
+                <img class="lazy" src="assets/images/mockup/4.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 4" title="Dev PicklesSolution Web App Mockup 4">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -73,7 +78,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/5.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 5" title="Dev PicklesSolution Web App Mockup 5">
+                <img class="lazy" src="assets/images/mockup/5.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 5" title="Dev PicklesSolution Web App Mockup 5">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -86,7 +92,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/6.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 6" title="Dev PicklesSolution Web App Mockup 6">
+                <img class="lazy" src="assets/images/mockup/6.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 6" title="Dev PicklesSolution Web App Mockup 6">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -99,7 +106,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/7.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 7" title="Dev PicklesSolution Web App Mockup 7">
+                <img class="lazy" src="assets/images/mockup/7.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 7" title="Dev PicklesSolution Web App Mockup 7">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -112,7 +120,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/8.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 8" title="Dev PicklesSolution Web App Mockup 8">
+                <img class="lazy" src="assets/images/mockup/8.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 8" title="Dev PicklesSolution Web App Mockup 8">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -125,7 +134,8 @@
                 </div>
             </li>
             <li class="mix web-app col-xl-4 col-md-4 col-12 col-sm-6">
-                <img class="lazy" src="assets/images/mockup/9.webp" itemprop="thumbnail" alt="Dev Pickles Web App Development Mockup 9" title="Dev PicklesSolution Web App Mockup 9">
+                <img class="lazy" src="assets/images/mockup/9.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Web App Development Mockup 9" title="Dev PicklesSolution Web App Mockup 9">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -138,7 +148,8 @@
                 </div>
             </li>
             <li class="mix mobile-app col-xl-4 col-md-4 col-12 col-sm-6" style="display: none;">
-                <img class="lazy" src="assets/images/mockup/a1.webp" itemprop="thumbnail" alt="Dev Pickles Mobile App Development Mockup 1" title="Dev PicklesSolution Mobile App Mockup 1">
+                <img class="lazy" src="assets/images/mockup/a1.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Mobile App Development Mockup 1" title="Dev PicklesSolution Mobile App Mockup 1">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -151,7 +162,8 @@
                 </div>
             </li>
             <li class="mix mobile-app col-xl-4 col-md-4 col-12 col-sm-6" style="display: none;">
-                <img class="lazy" src="assets/images/mockup/a2.webp" itemprop="thumbnail" alt="Dev Pickles Mobile App Development Mockup 2" title="Dev PicklesSolution Mobile App Mockup 2">
+                <img class="lazy" src="assets/images/mockup/a2.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Mobile App Development Mockup 2" title="Dev PicklesSolution Mobile App Mockup 2">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -164,7 +176,8 @@
                 </div>
             </li>
             <li class="mix mobile-app col-xl-4 col-md-4 col-12 col-sm-6" style="display: none;">
-                <img class="lazy" src="assets/images/mockup/a3.webp" itemprop="thumbnail" alt="Dev Pickles Mobile App Development Mockup 3" title="Dev PicklesSolution Mobile App Mockup 3">
+                <img class="lazy" src="assets/images/mockup/a3.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Mobile App Development Mockup 3" title="Dev PicklesSolution Mobile App Mockup 3">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -177,7 +190,8 @@
                 </div>
             </li>
             <li class="mix mobile-app col-xl-4 col-md-4 col-12 col-sm-6" style="display: none;">
-                <img class="lazy" src="assets/images/mockup/a4.webp" itemprop="thumbnail" alt="Dev Pickles Mobile App Development Mockup 4" title="Dev PicklesSolution Mobile App Mockup 4">
+                <img class="lazy" src="assets/images/mockup/a4.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Mobile App Development Mockup 4" title="Dev PicklesSolution Mobile App Mockup 4">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -190,7 +204,8 @@
                 </div>
             </li>
             <li class="mix mobile-app col-xl-4 col-md-4 col-12 col-sm-6" style="display: none;">
-                <img class="lazy" src="assets/images/mockup/a5.webp" itemprop="thumbnail" alt="Dev Pickles Mobile App Development Mockup 5" title="Dev PicklesSolution Mobile App Mockup 5">
+                <img class="lazy" src="assets/images/mockup/a5.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Mobile App Development Mockup 5" title="Dev PicklesSolution Mobile App Mockup 5">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>
@@ -203,7 +218,8 @@
                 </div>
             </li>
             <li class="mix mobile-app col-xl-4 col-md-4 col-12 col-sm-6" style="display: none;">
-                <img class="lazy" src="assets/images/mockup/a6.webp" itemprop="thumbnail" alt="Dev Pickles Mobile App Development Mockup 6" title="Dev PicklesSolution Mobile App Mockup 6">
+                <img class="lazy" src="assets/images/mockup/a6.webp" itemprop="thumbnail"
+                    alt="Dev Pickles Mobile App Development Mockup 6" title="Dev PicklesSolution Mobile App Mockup 6">
                 <div class="portfolio-index-overlay">
                     <div class="overlay-content">
                         <p class="category"></p>

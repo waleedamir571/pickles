@@ -75,7 +75,8 @@
                             <div class="logo-img">
 
                                 <img src="assets/images/home/blockchain.png"
-                                    alt="Blockchain Website Design & Development" title="Dev PicklesSolution Blockchain Png">
+                                    alt="Blockchain Website Design & Development"
+                                    title="Dev PicklesSolution Blockchain Png">
 
                             </div>
                         </div>
@@ -137,7 +138,7 @@
                                 purchase. Msg &
                                 data rates may apply. Msg frequency varies. Reply HELP for assistance or STOP to opt out
                                 of
-                                receiving messages. 
+                                receiving messages.
                                 Sign Up for Email and Phone Calls
                                 <br>
 
@@ -690,7 +691,92 @@
             </div>
         </div>
         <div class="row pr">
-            <div class="col-md-4 offset-md-4">
+            <div class="col-md-4 ">
+                <div class="t-col-first main">
+                    <div class="inner1">
+                        <img class="primg" src="assets/images/pricing/platinum.png">
+                        <h3>Launch Package</h3>
+                        <h3>Best for: New businesses starting online
+
+                        </h3>
+                    </div>
+                    <div class="inner2">
+                        <!-- <h4>$4499 <span>$8999</span></h4> -->
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
+                    </div>
+                    <div class="inner3">
+                        <ul>
+                            <li>Custom homepage, product, and checkout pages</li>
+                            <li>Mobile-friendly design that looks great on all devices</li>
+                            <li>Add up to 50 products</li>
+                            <li>Secure payment setup (Stripe, PayPal, etc.)</li>
+                            <li>SEO basics to help you show up on Google</li>
+
+                        </ul>
+                    </div>
+                    <div class="inner4">
+                        <p class="p1"><a href="javascript:$zopim.livechat.window.show()">Live
+                                Chat</a>
+                        </p>
+                        <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
+                        </p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
+                    </div>
+                    <div class="inner5">
+                        <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="t-col-first main">
+                    <div class="inner1">
+                        <img class="primg" src="assets/images/pricing/platinum.png">
+                        <h3>Growth Package
+                        </h3>
+                        <h3>Best for: Growing stores with more products and features
+                        </h3>
+                    </div>
+                    <div class="inner2">
+                        <!-- <h4>$4499 <span>$8999</span></h4> -->
+                        <a href="tel:(551) 290-8897" class="brand-black-btn btn-props">Call Now</a>
+                    </div>
+                    <div class="inner3">
+                        <ul>
+                            <li>Custom design for up to 7 key pages
+                            </li>
+                            <li>Add up to 300 products
+                            </li>
+                            <li>Filters for size, color, price, etc.
+                            </li>
+                            <li>Multiple payment options
+                            </li>
+                            <li>Discount codes and promo features
+
+
+
+
+
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="inner4">
+                        <p class="p1"><a href="javascript:$zopim.livechat.window.show()">Live
+                                Chat</a>
+                        </p>
+                        <p class="p2"><a href="mailto:info@devpickles.com">info@devpickles.com</a>
+                        </p>
+                        <p class="p3"><a href="tel:(551) 290-8897">(551) 290-8897</a></p>
+                    </div>
+                    <div class="inner5">
+                        <button class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Quote</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 ">
                 <div class="t-col-first main">
                     <div class="inner1">
                         <img class="primg" src="assets/images/pricing/platinum.png">
