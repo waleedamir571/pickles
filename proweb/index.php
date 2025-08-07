@@ -1,7 +1,7 @@
 <html lang="en-US">
 
 <head>
-   
+
 
     <title>Get an interactive user friendly website and grow your business</title>
     <meta name="description"
@@ -144,32 +144,25 @@
                                         <div class="row">
                                             <div class="ban-form">
                                                 <form name="" class="cmxform" method="POST"
-                                                    action="/lp2/contactform.php">
-                                                    <input type="hidden" name="_token"
-                                                        value="oj3xAHoThWlBwNGmEzFEvCArFU4UFRvf2PAWm3oN"
-                                                        autocomplete="off" />
-                                                    <input type="hidden" value="The Netherlands" name="country" />
-                                                    <input type="hidden" value="62.133.61.131" name="ip" />
-                                                    <input type="hidden" value="North Holland" name="region" />
-                                                    <input type="hidden" value="Amsterdam" name="city" />
-                                                    <input type="hidden" value="/lp2/" name="pageurl" />
+                                                    action="/backend/action/action.php">
+                                                    <input type="hidden" name="type" value="contactForm" />
 
                                                     <div class="row">
                                                         <div class="col-lg-12">
                                                             <div class="fldset">
-                                                                <input type="text" name="Name" size="40" class="input"
+                                                                <input type="text" name="name" size="40" class="input"
                                                                     placeholder="Name" required />
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-12">
                                                             <div class="fldset">
-                                                                <input type="email" name="Email" size="40"
+                                                                <input type="email" name="email" size="40"
                                                                     placeholder="Email" class="input" required />
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-12">
                                                             <div class="fldset">
-                                                                <input id="phone-country" name="Number" type="tel"
+                                                                <input id="phone-country" name="phone" type="tel"
                                                                     placeholder="Your Phone" maxlength="10"
                                                                     onkeypress="return isNumberKey(event);"
                                                                     class="input" required pattern="[1-9]{1}[0-9]{9}"
@@ -178,8 +171,9 @@
                                                         </div>
                                                         <div class="col-lg-12">
                                                             <div class="fldset">
-                                                                <textarea name="msg" cols="40" rows="1" class="textarea"
-                                                                    placeholder="Message" required></textarea>
+                                                                <textarea name="message" cols="40" rows="1"
+                                                                    class="textarea" placeholder="Message"
+                                                                    required></textarea>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-12">
@@ -833,26 +827,21 @@
                                     <div class="content"></div>
                                     <div role="form">
                                         <form name="contactform" class="cmxform" method="POST"
-                                            enctype="multipart/form-data" action="/lp2/contactform.php">
-                                            <input type="hidden" name="_token"
-                                                value="oj3xAHoThWlBwNGmEzFEvCArFU4UFRvf2PAWm3oN" autocomplete="off" />
-                                            <input type="hidden" value="The Netherlands" name="country" />
-                                            <!--<input type="hidden" value="62.133.61.131" name="ip">-->
-                                            <!--<input type="hidden" value="North Holland" name="region">-->
-                                            <!--<input type="hidden" value="Amsterdam" name="city">-->
-                                            <input type="hidden" value="/lp2/" name="pageurl" />
+                                            enctype="multipart/form-data" action="/backend/action/action.php">
+                                            <input type="hidden" name="type"
+                                                value="contactForm"  />
                                             <div class="app-input-group full">
-                                                <span> <input type="text" name="Name" value="" size="40" class="input"
+                                                <span> <input type="text" name="name" value="" size="40" class="input"
                                                         placeholder="Name" required="" /> </span>
                                                 <!--<label>Name</label>-->
                                             </div>
                                             <div class="app-input-group full">
-                                                <span> <input type="text" name="Email" value="" size="40"
+                                                <span> <input type="email" name="email" value="" size="40"
                                                         placeholder="Email" class="input" required="" /> </span>
                                                 <!--<label>Email</label>-->
                                             </div>
                                             <div class="app-input-group full">
-                                                <input id="phone-country" name="Number" type="tel"
+                                                <input id="phone-country" name="phone" type="tel"
                                                     placeholder="Your Phone" maxlength="10"
                                                     onkeypress="return isNumberKey(event);" class="input" required=""
                                                     pattern="[1-9]{1}[0-9]{9}"
@@ -861,7 +850,7 @@
                                             </div>
 
                                             <div class="app-input-group full">
-                                                <span><textarea name="msg" cols="40" rows="1" class="textarea"
+                                                <span><textarea name="message" cols="40" rows="1" class="textarea"
                                                         placeholder="Message" required=""></textarea></span>
                                             </div>
                                             <div class="send-wrap">
@@ -919,29 +908,25 @@
                     <div class="row">
                         <div class="ban-form">
                             <form name="contactform" class="cmxform" method="POST" enctype="multipart/form-data"
-                                action="https://prowebdevelopmentllc.com/lp2/contactform.php"> <input type="hidden"
-                                    name="_token" value="oj3xAHoThWlBwNGmEzFEvCArFU4UFRvf2PAWm3oN" autocomplete="off">
-                                <input type="hidden" value="The Netherlands" name="country">
-                                <input type="hidden" value="62.133.61.131" name="ip">
-                                <input type="hidden" value="North Holland" name="region">
-                                <input type="hidden" value="Amsterdam" name="city">
-                                <input type="hidden" value="https://prowebdevelopmentllc.com/lp2/" name="pageurl">
+                                action="/backend/action/action.php"> 
+                                <input type="hidden"
+                                    name="type" value="contactForm">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                            <input type="text" name="Name" value="" size="40" class="input"
+                                            <input type="text" name="name" value="" size="40" class="input"
                                                 placeholder="Name" required="">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                            <input type="text" name="Email" value="" size="40" placeholder="Email"
+                                            <input type="text" name="email" value="" size="40" placeholder="Email"
                                                 class="input" required="">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                            <input id="phone-country" name="Number" type="tel" placeholder="Your Phone"
+                                            <input id="phone-country" name="phone" type="tel" placeholder="Your Phone"
                                                 maxlength="10" onkeypress="return isNumberKey(event);" class="input"
                                                 required="" pattern="[1-9]{1}[0-9]{9}"
                                                 title="Please enter exactly 10 digits Number"
@@ -951,7 +936,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="fldset">
-                                            <textarea name="msg" cols="40" rows="1" class="textarea"
+                                            <textarea name="message" cols="40" rows="1" class="textarea"
                                                 placeholder="Message" required=""></textarea>
                                         </div>
                                     </div>
@@ -1186,8 +1171,8 @@
             <div class="form-head">
                 <h2>Chat With Us to Avail <span>70%</span> Discount</h2>
             </div>
-            <form id="popup_discount_unique_form" onsubmit="return validatePopupDiscountForm()" method="POST"
-                action="/lp2/popup.php">
+            <form method="POST" action="/backend/action/action.php">
+                <input type="hidden" name="type" value="contactForm" />
                 <label for="popup_discount_unique_name">Name*</label>
                 <input type="text" id="popup_discount_unique_name" name="name" required />
 
