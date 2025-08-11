@@ -19,7 +19,6 @@
 	}
 }
  </style>
- 
 
 
       <title>Dev Pickles| Custom WordPress Solutions| WooCommerce Sites</title>
@@ -32,7 +31,7 @@
       <link rel='stylesheet' id='main-style-css' href="css/mstyle.css" type='text/css' media='all'>
       <link rel='stylesheet' id='main-style-css' href="css/style.css" type='text/css' media='all'>
       <meta name="ip2loc" content="203.215.191.57">
-      <meta name="page_url" content="premiumwebexperts.com/wordpress-lp/">
+      <meta name="page_url" content="">
 
 
      
