@@ -16,13 +16,16 @@
   <link rel="stylesheet" href="assets/css/style-responsive30f4.css?v=3">
   <script src="../../use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
   <meta name="ip2loc" content="203.215.191.57">
-  <link rel="icon" href="../assets/images/home/favicon.png" type="image/webp" />
+  <link rel="icon" href="../../assets/images/home/favicon.png" type="image/webp" />
 
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
+ <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17439684795"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17439684795');
+    </script>
 
 
 
@@ -74,7 +77,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <span class="price-tag"><sup>$</sup>149</span>
+          <!-- <span class="price-tag"><sup>$</sup>149</span> -->
           <h1><span>Handcrafting</span> Best-in-Class <br class="mb-none"> Web Solutions <br class="mb-none"> for Your
             Business</h1>
           <i><img src="assets/images/lp-banner-logos.png" alt=""></i>
@@ -97,7 +100,7 @@
 
         <div class="col-md-5 ">
           <div class="banner-form frm-brdr-grd">
-            <span class="off-50"><img src="assets/images/off-50.png"></span>
+            <!-- <span class="off-50"><img src="assets/images/off-50.png"></span> -->
             <form action="/backend/action/action.php" method="POST"
               class="validate-banner-frm" novalidate="novalidate">
               <input type="hidden" name="type" value="contactForm">
@@ -1181,7 +1184,7 @@
         <div class="col-md-4 text-right">
           <h6>Stay Connected</h6>
           <ul class="ftr-social">
-            <li><i class="fas fa-phone-alt"></i> (551) 290-8897 </li>
+            <li><a href="tel:(551) 290-8897"><i class="fas fa-phone-alt"></i> (551) 290-8897</a>   </li>
             <li>
               <i class="far fa-envelope"></i>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@devpickles.com" target="_blank">
@@ -1236,8 +1239,9 @@
             <div class="col-md-12 text-center">
               <p class="form_tagline"> <input type="checkbox" name="agree"> &nbsp; To receive our weekly Newsletter/SMS
                 and offers check here. You can unsubscribe at any time.</p>
-              <input type="submit" value="Activate Coupon Now"> <span class="off-50"><img
-                  src="assets/images/off-50.png"></span>
+              <input type="submit" value="Activate Coupon Now"> 
+              <!-- <span class="off-50"><img
+                  src="assets/images/off-50.png"></span> -->
 
               <input type="hidden" name="send" value="1">
               <!-- Email Source -->
@@ -1252,7 +1256,7 @@
 
               <!-- Customer Info -->
               <input type="hidden" name="fullpageurl" value="index.html" />
-              <input type="hidden" name="pageurl" value="http://www.websitedesign247.com/" />
+              <input type="hidden" name="pageurl" value="" />
 
               <!-- ip2Location -->
               <input type="hidden" name="ip2loc_ip" value="" />
@@ -1299,8 +1303,9 @@
             <div class="col-md-12 text-center">
               <p class="form_tagline"> <input type="checkbox" name="agree"> &nbsp; To receive our weekly Newsletter/SMS
                 and offers check here. You can unsubscribe at any time.</p>
-              <input type="submit" value=""> <span class="off-50"><img
-                  src="assets/images/off-50.png"></span>
+              <input type="submit" value="">Activate Coupon Now 
+              <!-- <span class="off-50"><img
+                  src="assets/images/off-50.png"></span> -->
               <input type="hidden" name="send" value="1">
               <!-- Email Source -->
 
@@ -1361,8 +1366,9 @@
             <div class="col-md-12 text-center">
               <p class="form_tagline"> <input type="checkbox" name="agree"> &nbsp; To receive our weekly Newsletter/SMS
                 and offers check here. You can unsubscribe at any time.</p>
-              <input type="submit" value="Activate Coupon Now"> <span class="off-50"><img
-                  src="assets/images/off-50.png"></span>
+              <input type="submit" value="Activate Coupon Now"> 
+                <!-- <span class="off-50"><img
+                    src="assets/images/off-50.png"></span> -->
               <input type="hidden" name="send" value="1">
               <!-- Email Source -->
 

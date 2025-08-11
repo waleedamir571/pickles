@@ -31614,7 +31614,7 @@ section.pricesec .row .col-md-4.active a {
 .popup-content input[type=email]:focus,
 .popup-content input[type=text]:focus,
 .popup-content textarea:focus {
-    border: 1px solid #dc7707 !important;
+    border: 1px solid #CE00EC !important;
 }
 
 .popupform {
@@ -31627,7 +31627,7 @@ section.pricesec .row .col-md-4.active a {
 }
 
 .popup-content input[type="submit"] {
-    background: #dc3d48;
+    /* background: #dc3d48; */
     color: white;
     text-transform: uppercase;
     font-size: 16px;
@@ -31639,8 +31639,8 @@ section.pricesec .row .col-md-4.active a {
     display: inline;
     margin: 20px auto 0;
     border-radius: 6px;
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
-
 .popup-content h2 {
     font-size: 28px;
     color: #1c1c85;
@@ -31687,7 +31687,7 @@ label.error {
 }
 
 .popupform .fancybox-close-small {
-    background: #da3b46;
+    background: #000;
     opacity: 1 !important;
     padding: 0 !important;
     color: #fff !important;

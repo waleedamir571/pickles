@@ -33,6 +33,15 @@
       <meta name="ip2loc" content="203.215.191.57">
       <meta name="page_url" content="">
 
+       <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17439684795"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17439684795');
+    </script>
+
 
      
   <!-- Start of LiveChat (www.livechat.com) code -->
@@ -129,7 +138,7 @@ footer .chexck {
                         </div>
                         <div class="col-8">
                            <div class="scroll-div">
-                              <a href="mailto:info@devpickles.com" class="mail-link"><i class="fa fa-envelope" aria-hidden="true"></i> <span>info@devpickles.com</span></a>
+                              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@devpickles.com"  class="mail-link"><i class="fa fa-envelope" aria-hidden="true"></i> <span>info@devpickles.com</span></a>
                               <div class="scroll-dinn">
                                  <a href="tel:(551) 290-8897" name="199" title="Start Up Website Package - $199" class="various dinn-scr"></a>
                                  <h4><i class="fa fa-phone" aria-hidden="true"></i>  <span>(551) 290-8897</span></h4>
