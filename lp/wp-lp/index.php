@@ -19,6 +19,7 @@
 	}
 }
  </style>
+ 
 
 
       <title>Dev Pickles| Custom WordPress Solutions| WooCommerce Sites</title>
