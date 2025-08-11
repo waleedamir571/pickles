@@ -28,9 +28,9 @@ RewriteRule ^(.*)$ $1.php [L]
 </FilesMatch>
 
 # ErrorDocument for 404
-ErrorDocument 404 https://hoisolutions.com/404
+ErrorDocument 404 https://devpickles.com//404
 RewriteCond %{REQUEST_URI} ^/404/$
-RewriteRule ^(.*)$ https://hoisolutions.com/404 [L]
+RewriteRule ^(.*)$ https://devpickles.com//404 [L]
 
 # Add proper headers for bots (fix X-Robots-Tag issue)
 <IfModule mod_headers.c>

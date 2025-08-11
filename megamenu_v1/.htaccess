@@ -58,11 +58,11 @@ Redirect /website-experts/differences-between-B2B-and-B2C-ecommerc-websites /blo
 
 
 
-ErrorDocument 404 https://hoisolutions.com/404
+ErrorDocument 404 https://devpickles.com//404
 
 RewriteCond %{REQUEST_URI} ^/404/$
 
-RewriteRule ^(.*)$ https://hoisolutions.com/404 [L]
+RewriteRule ^(.*)$ https://devpickles.com//404 [L]
 
 
 
