@@ -1,4 +1,15 @@
+<!-- Event snippet for Submit lead form conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17439684795/rsz6CLq1gYEbELvx8ftA',
+      'value': 1.0,
+      'currency': 'USD'
+  });
+</script>
+
+
 <?php include 'partials/header.php' ?>
+
 
 <section class="about-bg pt-200 poppins" style="position: relative; height: 500px;">
     <div class="container ">

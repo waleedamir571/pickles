@@ -11,6 +11,22 @@ footer .chexck {
     text-align: center
 }
 
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        /* opacity: 0.4; */
+        transform: scale(1.05);
+    }
+}
+
+.blink-button {
+    animation: blink 1.2s infinite ease-in-out;
+}
+
+
 
 .thank_you_page .popupform-main-new-popup,
 .thank_you_page .overlay-bg-new-popup {
@@ -19,6 +35,44 @@ footer .chexck {
 
 }
 
+.text{
+        background: linear-gradient(to right, #433eff, #CE00EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.pop_btn.gt-strt {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #000 !important;
+    border-radius: 8px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    /* background-color: #000; */
+    background: linear-gradient(to right, #433eff, #CE00EC);
+}
+
+
+a.pop_btn.gt-strt.white {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #000 !important;
+    border-radius: 8px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    /* background-color: #000; */
+    background: linear-gradient(to right, #433eff, #CE00EC);
+}
 
 
 
@@ -626,7 +680,7 @@ img.emoji {
     margin-top: 15px;
     width: 100%;
     padding: 12px;
-    background-color: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -773,26 +827,28 @@ section {
     display: block
 }
 
+/* Custom Scrollbar for WebKit Browsers */
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px
+    width: 6px;
 }
 
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment {
-    display: none
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Light neutral background */
+    border-radius: 10px;
 }
 
-::-webkit-scrollbar-track-piece {
-    background-color: #ecedf1;
-    -webkit-border-radius: 0;
-    border-left: 1px solid #888
+::-webkit-scrollbar-thumb {
+    background: black !important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-clip: content-box;
 }
 
-::-webkit-scrollbar-thumb:vertical {
-    -webkit-border-radius: 0;
-    background: #50c7cf
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #5d5dff, #e74cff) !important;
 }
+
+
 
 body {
     margin: 0;
@@ -909,10 +965,9 @@ a {
 }
 
 a:hover {
-    color: #50c7cf;
-    text-decoration: underline
+    color: #CE00EC;
+    text-decoration: underline;
 }
-
 a:not([href]):not([tabindex]) {
     color: inherit;
     text-decoration: none
@@ -6807,7 +6862,8 @@ ul.rightnav li a.btn {
     height: 2px;
     background: #50c7cf;
     display: block;
-    margin: 13px auto 0
+    margin: 13px auto 0;
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 .services-sec .box p {
@@ -10676,7 +10732,8 @@ only screen and (-moz-min-device-pixel-ratio:1.3) {
     cursor: pointer;
     transition: background-color .3s;
     border-radius: 0;
-    background: #84b0cd;
+    
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 .submit:hover {
@@ -20763,7 +20820,7 @@ section.sponsors-sec ul li img {
     font-size: 14px;
     transition: background 0.3s linear;
     border-radius: 6px;
-    background: #447290;
+    background: linear-gradient(to right, #433eff, #CE00EC);
     border: 1px solid #447290 !important;
 }
 
@@ -20884,7 +20941,12 @@ a.btn-theme.custBtn.cht {
     font-size: 14px;
     color: #22cc21;
     display: table-cell;
-    vertical-align: middle
+    vertical-align: middle;
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .strugglesec img {
@@ -21499,7 +21561,7 @@ a.btn-theme.custBtn.cht {
     width: 100%;
     height: 100%;
     color: #fff;
-    background: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     border-radius: 100%;
     display: block;
     height: 50px;
@@ -22486,7 +22548,7 @@ p.font20 {
 }
 
 .our-pricing-plans .package .head {
-    background: #447290;
+    /* background: linear-gradient(to right, #433eff, #CE00EC); */
     padding: 10px 21px;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -22510,7 +22572,7 @@ p.font20 {
     -ms-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    background: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     display: inline-block;
     line-height: 80px;
     position: relative
@@ -22535,19 +22597,19 @@ p.font20 {
 }
 
 .our-pricing-plans .package .head .right h5 {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
     margin: 0 0 3px;
-    text-shadow: 2px 2px 2px #13795f
+    /* text-shadow: 2px 2px 2px #13795f; */
 }
 
 .our-pricing-plans .package .head .right h6 {
-    color: #fff;
+    color: #000;
     font-size: 11px;
     font-weight: 400;
     margin: 0 0 0;
-    text-shadow: 2px 2px 2px #13795f
+    /* text-shadow: 2px 2px 2px #13795f; */
 }
 
 .our-pricing-plans .package .price {
@@ -22644,7 +22706,7 @@ p.font20 {
 
 .our-pricing-plans .package .mCSB_scrollTools .mCSB_draggerRail {
     width: 4px;
-    background: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
@@ -22657,7 +22719,7 @@ p.font20 {
 }
 
 .our-pricing-plans .package .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-    background: #447290;
+    background: linear-gradient(to right, #433eff, #CE00EC);
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
@@ -22680,11 +22742,20 @@ p.font20 {
 }
 
 .our-pricing-plans .package .custom-btn {
-    background: #447290;
+    background: black;
     margin: auto;
     display: block;
-    border-bottom: 4px solid #447290;
+    /* border-bottom: 4px solid #447290; */
     text-shadow: #000000bf 0 1px 1px;
+}
+
+.our-pricing-plans .package .custom-btn:hover {
+    background: black;
+    margin: auto;
+    display: block;
+    /* border-bottom: 4px solid #447290; */
+    text-shadow: #000000bf 0 1px 1px;
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 .our-pricing-plans .package .custom-btn span {
@@ -22709,7 +22780,7 @@ p.font20 {
 }
 
 .strip.best-seller {
-    background: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     color: #fff;
     border-radius: 3px 3px 0 0;
     left: inherit;
@@ -22794,11 +22865,11 @@ p.font20 {
 }
 
 .our-pricing-plans .owl-item:nth-child(2) .package .head .right h5 {
-    text-shadow: 2px 2px 2px #2d3784
+    /* text-shadow: 2px 2px 2px #2d3784; */
 }
 
 .our-pricing-plans .owl-item:nth-child(2) .package .head .right h6 {
-    text-shadow: 2px 2px 2px #2d3784
+    /* text-shadow: 2px 2px 2px #2d3784; */
 }
 
 .our-pricing-plans .owl-item:nth-child(8) .package .head {
@@ -22875,14 +22946,15 @@ p.font20 {
 }
 
 .our-combopack {
-    background: linear-gradient(339deg, rgb(0 92 153) 20%, rgb(50 123 171) 100%);
+    /* background: linear-gradient(339deg, rgb(0 92 153) 20%, rgb(50 123 171) 100%); */
     background-size: cover;
     width: 100%;
     padding: 100px 0;
     overflow: hidden;
-    min-height: 690px
+    min-height: 690px;
+    background: linear-gradient(to right, #5000F4, #CE00EC);
+    background-image: url(../images/mockup/sec.jpg);
 }
-
 .our-combopack * {
     color: #fff
 }
@@ -22909,7 +22981,7 @@ p.font20 {
     margin: 0 0 0;
     position: relative;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     display: block;
     line-height: 20px
@@ -23000,11 +23072,11 @@ p.font20 {
 }
 
 .our-pricing-plans .owl-item:nth-child(5) .package .head .right h5 {
-    text-shadow: 2px 2px 2px #452a99
+    /* text-shadow: 2px 2px 2px #452a99; */
 }
 
 .our-pricing-plans .owl-item:nth-child(5) .package .head .right h6 {
-    text-shadow: 2px 2px 2px #452a99
+    /* text-shadow: 2px 2px 2px #452a99; */
 }
 
 .our-pricing-plans .owl-item:nth-child(5) .package .listing ul li:before {
@@ -23740,7 +23812,9 @@ header .mrgn {
 }
 
 .contacts .overlaynew3 {
-    background: #447290;
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    background: url(../../../assets/images/home/footer.webp);
+    background-size: contain;
 }
 
 .floatbutton.active {
@@ -23782,7 +23856,7 @@ header .mrgn {
     font-weight: 700;
     position: relative;
     text-transform: uppercase;
-    background-color: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     box-shadow: 0 0 40px #00000026;
     -webkit-box-shadow: 0 0 40px #00000026;
     -ms-box-shadow: 0 0 40px #00000026;
@@ -23898,7 +23972,7 @@ header .mrgn {
     margin: 20px 0 0;
     border: #fff0;
     cursor: pointer;
-    background-color: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 .ban-form textarea {
@@ -23928,7 +24002,7 @@ header .mrgn {
 
 .btns_wrap .call_wrap {
     width: 280px;
-    background-color: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     position: absolute;
     right: -225px;
     top: 73px;
@@ -23956,7 +24030,7 @@ header .mrgn {
     position: absolute;
     right: -225px;
     width: 280px;
-    background-color: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     top: 0;
     border-radius: 0;
     overflow: hidden;
@@ -24043,10 +24117,12 @@ body header {
     z-index: 999
 }
 
-.top-head {
+.top-head
+
+ {
     background: #000;
-    padding: 5px 0;
-    width: 100%
+    padding: 10px 0;
+    width: 100%;
 }
 
 .top-left.col-md-7 {
@@ -24061,12 +24137,14 @@ body header {
 }
 
 .top-left a {
-    background: #ffba00;
+    /* background: #ffba00; */
     padding: 5px 20px;
     color: #000;
     font-weight: 700;
     border-radius: 2px;
-    font-size: 15px
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(to right, rgb(67, 62, 255), rgb(206, 0, 236));
 }
 
 .top-right ul {
@@ -24151,7 +24229,7 @@ header ul li a.chat_icon.chat {
 
 .scroll-dinn {
     position: relative;
-    background: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
     display: flex;
     padding: 14px 30px;
     border-radius: 0 0 6px 6px;
@@ -24174,7 +24252,8 @@ section.banner {
     position: relative;
     z-index: 0;
     overflow: hidden;
-    background: linear-gradient(92deg, rgb(0 42 70) 20%, rgb(50 123 171) 100%);
+    /* background: linear-gradient(92deg, rgb(0 42 70) 20%, rgb(50 123 171) 100%); */
+    background-image: url('../../../assets/images/banner.jpg');
 }
 
 .banner .container {
@@ -24218,7 +24297,11 @@ section.banner h1 span {
     position: absolute;
     left: 0;
     font-size: 18px;
-    color: #ffc600
+    /* color: #ffc600; */
+    color: linear-gradient(to right, #433eff, #CE00EC);
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section.banner a {
@@ -24251,7 +24334,7 @@ section.banner a {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: -1px;
-    background: #84b0cd;
+        background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 img.head-thumb {
@@ -24430,12 +24513,13 @@ section.packages .pack-inn a.grad-btn {
 
 .mygrid {
     padding: 30px 20px 30px 20px;
-    background-image: linear-gradient(76deg, rgb(68 114 144) 20%, rgb(132 176 205 / 51%) 100%);
+    /* background-image: linear-gradient(76deg, rgb(68 114 144) 20%, rgb(132 176 205 / 51%) 100%); */
     width: 80% !important;
     margin: 0 auto;
     position: relative;
     border-radius: 8px;
-    height: 315px
+    height: 315px;
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 .cta2 {
@@ -25771,7 +25855,10 @@ textarea.validationerror {
 }
 
 .form-head span {
-    color: #81adca;
+    /* color: #81adca; */
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .form-group {

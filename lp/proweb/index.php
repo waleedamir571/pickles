@@ -6,7 +6,7 @@
     <title>Get an interactive user friendly website and grow your business</title>
     <meta name="description"
         content=" is a digital design agency specializing in branding, animation, mobile and web design and development." />
-    <link rel="icon" href="../assets/images/home/favicon.png" type="image/webp" />
+    <link rel="icon" href="../../assets/images/home/favicon.png" type="image/webp" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <link
@@ -45,11 +45,28 @@
     <link rel='stylesheet' href='../assets/css/video-slider.css'>
     <!-- GLIGHT BOX  -->
     <link rel='stylesheet' href='../assets/vendors/css/glightbox.min.css'>
-   
 
-    <!-- Start of Zendesk Widget script -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17439684795"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17439684795');
+    </script>
 
-    <!-- End of Zendesk Widget script -->
+
+    <!-- Start of LiveChat (www.livechat.com) code -->
+    <script>
+        window.__lc = window.__lc || {};
+        window.__lc.license = 19261171;
+        window.__lc.integration_name = "manual_channels";
+        window.__lc.product_name = "livechat";
+        ; (function (n, t, c) { function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function () { i(["on", c.call(arguments)]) }, once: function () { i(["once", c.call(arguments)]) }, off: function () { i(["off", c.call(arguments)]) }, get: function () { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function () { i(["call", c.call(arguments)]) }, init: function () { var n = t.createElement("script"); n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } }; !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
+    </script>
+    <noscript><a href="https://www.livechat.com/chat-with/19261171/" rel="nofollow">Chat with us</a>, powered by <a
+            href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+    <!-- End of LiveChat code -->
 </head>
 
 <body class="home blog homepage_style homeclass hoverheader">
@@ -62,13 +79,13 @@
                             <div class="top-left col-md-8 row align-items-center">
                                 <h4>Limited Time Offer -Activate Your 70% off Coupon!</h4>
                                 <a href="javascript:;" name="199" title="Start Up Website Package - $199"
-                                    class="pop_btn various" onclick="openUniquePopup();">Activate Your Coupon Now</a>
+                                    class="pop_btn various blink-button" onclick="openUniquePopup();">Activate Your Coupon Now</a>
                             </div>
                             <div class="top-right col-md-4 text-right">
                                 <ul>
                                     <li><a class="toll_icon" href="tel:(551) 290-8897">Toll Free (551) 290-8897</a></li>
                                     <li>
-                                        <a class="chat_icon chat" href="javascript:;" onclick="openZendeskChat();">Live
+                                        <a class="chat_icon chat" href="javascript:;" onclick="LiveChatWidget.call('maximize');">Live
                                             Chat with Expert</a>
                                     </li>
 
@@ -91,7 +108,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-4 col-12">
                                 <div class="logodiv">
-                                    <a href="/"> <img class="logo-img" src="../assets/images/logo.png" alt="" /> </a>
+                                    <a href="/"> <img class="logo-img" src="../../assets/images/logo.png" alt="" /> </a>
                                 </div>
                             </div>
                             <div class="col-8">
@@ -113,7 +130,7 @@
                         <div class="col-lg-7 banner-left mb-4 mb-lg-0">
                             <h1>
                                 Web Designs Starts <br />
-                                from <span>$199 ONLY</span>
+                                from $199 ONLY
                             </h1>
                             <p>
                                 From personal websites to online stores, to company websites to custom web applications,
@@ -131,7 +148,7 @@
                                 <a href="javascript:;" class="pop_btn various grad-btn" onclick="openUniquePopup();">
                                     Avail <span>70%</span> Discount </a>
                                 <a href="javascript:;" class="various grad-price" name="199"
-                                    title="Start Up Website Package - $199">View Pricing</a>
+                                    title="Start Up Website Package - $199"   onclick="LiveChatWidget.call('maximize');">Live Chat</a>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -248,7 +265,7 @@
                                         </div>
                                     </div>
                                     <a name="199" title="Start Up Website Package - $199" href="javascript:;"
-                                        class="pop_btn custom-btn small-btn various" onclick="openZendeskChat();">
+                                        class="pop_btn custom-btn small-btn various" onclick="LiveChatWidget.call('maximize');">
                                         <span>Start Project</span>
                                     </a>
 
@@ -305,7 +322,7 @@
                                         </div>
                                     </div>
                                     <a name="349" title="Professional Website Package - $349" href="javascript:;"
-                                        class="pop_btn custom-btn small-btn various" onclick="openZendeskChat();">
+                                        class="pop_btn custom-btn small-btn various" onclick="LiveChatWidget.call('maximize');">
                                         <span>Start Project</span>
                                     </a>
                                 </div>
@@ -360,7 +377,7 @@
                                         </div>
                                     </div>
                                     <a name="699" title="Business Pro Website Package - $699" href="javascript:;"
-                                        class="pop_btn custom-btn small-btn various" onclick="openZendeskChat();">
+                                        class="pop_btn custom-btn small-btn various" onclick="LiveChatWidget.call('maximize');">
                                         <span>Start Project</span> </a>
                                 </div>
                             </div>
@@ -411,7 +428,7 @@
                                         </div>
                                     </div>
                                     <a name="1,199" title="Ecommerce Website Package - $1,199" href="javascript:;"
-                                        class="pop_btn custom-btn small-btn various" onclick="openZendeskChat();">
+                                        class="pop_btn custom-btn small-btn various" onclick="LiveChatWidget.call('maximize');">
                                         <span>Start Project</span> </a>
                                 </div>
                             </div>
@@ -472,7 +489,7 @@
                                         </div>
                                     </div>
                                     <a name="1,999" title="Pro Ecommerce Website Package - $1,999" href="javascript:;"
-                                        class="pop_btn custom-btn small-btn various" onclick="openZendeskChat();">
+                                        class="pop_btn custom-btn small-btn various" onclick="LiveChatWidget.call('maximize');">
                                         <span>Start Project</span> </a>
                                 </div>
                             </div>
@@ -532,7 +549,7 @@
                                         </div>
                                     </div>
                                     <a name="2,499" title="Titanium Website Package - $2,499" href="javascript:;"
-                                        class="pop_btn custom-btn small-btn various" onclick="openZendeskChat();">
+                                        class="pop_btn custom-btn small-btn various" onclick="LiveChatWidget.call('maximize');">
                                         <span>Start Project</span> </a>
                                 </div>
                             </div>
@@ -590,11 +607,11 @@
                             </div>
                             <div class="btn-pack">
                                 <a name="999" title="All in one combo - $999" href="javascript:;"
-                                    class="pop_btn custom-btn various get-now small-btn" onclick="openUniquePopup();">
+                                    class="pop_btn gt-strt white" onclick="openUniquePopup();">
                                     <span>Order Now</span> </a>
 
-                                <a href="javascript:;" onclick="openZendeskChat();"
-                                    class="custom-btn view-detail small-btn chat">
+                                <a href="javascript:;" onclick="LiveChatWidget.call('maximize');"
+                                    class="pop_btn gt-strt">
                                     <span>Live Chat</span>
                                 </a>
 
@@ -828,8 +845,7 @@
                                     <div role="form">
                                         <form name="contactform" class="cmxform" method="POST"
                                             enctype="multipart/form-data" action="/backend/action/action.php">
-                                            <input type="hidden" name="type"
-                                                value="contactForm"  />
+                                            <input type="hidden" name="type" value="contactForm" />
                                             <div class="app-input-group full">
                                                 <span> <input type="text" name="name" value="" size="40" class="input"
                                                         placeholder="Name" required="" /> </span>
@@ -878,7 +894,7 @@
     </div>
     <div class="floatbutton">
         <div class="btns_wrap">
-            <a href="javascript:;" class="chat chat_wrap" onclick="openZendeskChat();">
+            <a href="javascript:;" class="chat chat_wrap" onclick="LiveChatWidget.call('maximize');">
                 <span class="icoo">
                     <i class="fa fa-comment"></i>
                 </span>
@@ -908,9 +924,8 @@
                     <div class="row">
                         <div class="ban-form">
                             <form name="contactform" class="cmxform" method="POST" enctype="multipart/form-data"
-                                action="/backend/action/action.php"> 
-                                <input type="hidden"
-                                    name="type" value="contactForm">
+                                action="/backend/action/action.php">
+                                <input type="hidden" name="type" value="contactForm">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="fldset">
@@ -1004,7 +1019,7 @@
                 //     });
                 // });
             </script>
-          
+
 
             <div class="overlay-bg-new-popup"></div>
 
@@ -1020,7 +1035,7 @@
                         </div>
 
                         <div class="col-md-6">
-                            <div id="pop-form-new-popp" class="col-sm-12">
+                            <div id="pop-form-new-popp " class="col-sm-12">
                                 <h6>Activate Your 70% Off Coupon!</h6>
 
                                 <h3 class="gradient_txt">
@@ -1246,6 +1261,8 @@
 
     <script src="../assets/js/lazyload.js"></script>
     <script src="../assets/vendors/js/glightbox.min.js"></script>
+
+    
 </body>
 
 </html>

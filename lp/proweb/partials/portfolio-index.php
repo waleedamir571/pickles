@@ -31,7 +31,7 @@
                                 </li>
                                 <li class="work-grid-item section-inverse momentfeed">
                                     <a data-fancybox=""
-                                        href="images/mockup/mockup-2.webp"
+                                        href="./../../assets/images/nportfolio/automotive/view2.jpg"
                                         class="work-grid-item-inner lazy">
                                         <div class="work-grid-item-overlay">
                                             <div class="work-grid-item-content">
@@ -43,7 +43,7 @@
                                         </div>
                                     </a>
                                     <div class="work-grid-item-img-wrapper"> <img loading="lazy"
-                                            class="work-grid-item-img lazy" src="images/mockup/mockup-2.webp"> </div>
+                                            class="work-grid-item-img lazy" src="./../../assets/images/nportfolio/automotive/view2.jpg"> </div>
                                 </li>
                                 <li class="work-grid-item section-inverse proteus">
                                     <a data-fancybox=""
@@ -95,7 +95,7 @@
                                 </li>
                                 <li class="work-grid-item section-inverse sweetarleens">
                                     <a data-fancybox=""
-                                        href="images/mockup/mockup-6.webp"
+                                        href="./../../assets/images/nportfolio/automotive/view6.jpg"
                                         class="work-grid-item-inner lazy">
                                         <div class="work-grid-item-overlay">
                                             <div class="work-grid-item-content">
@@ -107,11 +107,11 @@
                                         </div>
                                     </a>
                                     <div class="work-grid-item-img-wrapper"> <img loading="lazy"
-                                            class="work-grid-item-img lazy" src="images/mockup/mockup-6.webp"> </div>
+                                            class="work-grid-item-img lazy" src="./../../assets/images/nportfolio/automotive/view6.jpg"> </div>
                                 </li>
                                 <li class="work-grid-item section-inverse asgn">
                                     <a data-fancybox=""
-                                        href="images/mockup/mockup-7.webp"
+                                        href="./../../assets/images/nportfolio/law/view7.png"
                                         class="work-grid-item-inner lazy">
                                         <div class="work-grid-item-overlay">
                                             <div class="work-grid-item-content">
@@ -123,7 +123,7 @@
                                         </div>
                                     </a>
                                     <div class="work-grid-item-img-wrapper"> <img loading="lazy"
-                                            class="work-grid-item-img lazy" src="images/mockup/mockup-7.webp"> </div>
+                                            class="work-grid-item-img lazy" src="./../../assets/images/nportfolio/law/view7.png"> </div>
                                 </li>
                                 <li class="work-grid-item section-inverse asgn">
                                     <a data-fancybox=""
@@ -143,7 +143,7 @@
                                 </li>
                                 <li class="work-grid-item section-inverse asgn">
                                     <a data-fancybox=""
-                                        href="images/mockup/mockup-9.webp"
+                                        href="./../../assets/images/nportfolio/healthcare/view8.jpg"
                                         class="work-grid-item-inner lazy">
                                         <div class="work-grid-item-overlay">
                                             <div class="work-grid-item-content">
@@ -155,7 +155,7 @@
                                         </div>
                                     </a>
                                     <div class="work-grid-item-img-wrapper"> <img loading="lazy"
-                                            class="work-grid-item-img lazy" src="images/mockup/mockup-9.webp"> </div>
+                                            class="work-grid-item-img lazy" src="./../../assets/images/nportfolio/healthcare/view8.jpg"> </div>
                                 </li>
                             </ul>
                         </div>

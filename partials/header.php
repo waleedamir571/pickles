@@ -52,28 +52,27 @@
     <!-- GLIGHT BOX  -->
     <link rel='stylesheet' href='assets/vendors/css/glightbox.min.css'>
 
-    <!-- Google tag (gtag.js) UK 11Sep2023-->
+   
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XFL5V708YR"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17439684795"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
-        gtag('config', 'G-XFL5V708YR');
+        gtag('config', 'AW-17439684795');
     </script>
 
-<meta name="google-site-verification" content="ntJVCFT9jwRD-qKaCsjNnmI7-3O_xNep_1RW9IYWeno" />
+    <meta name="google-site-verification" content="ntJVCFT9jwRD-qKaCsjNnmI7-3O_xNep_1RW9IYWeno" />
 
-<link rel="alternate" hreflang="x-default" href="https://devpickles.com/"/>
-<link rel="alternate" hreflang="en-us" href="https://devpickles.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://devpickles.com/" />
+    <link rel="alternate" hreflang="en-us" href="https://devpickles.com/" />
 
 
-<link rel="canonical" href=" https://devpickles.com/" />
+    <link rel="canonical" href=" https://devpickles.com/" />
 
-<meta name="robots" content="index, follow" />
-<meta name="googlebot" content="index, follow, max-snippet: -1" />
-<meta name="bingbot" content="index, follow, max-snippet: -1 " />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet: -1" />
+    <meta name="bingbot" content="index, follow, max-snippet: -1 " />
 
     <!-- End Hotjar Tracking Code for https://hoisolutions.com/ -->
 
