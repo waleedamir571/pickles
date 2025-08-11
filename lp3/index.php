@@ -98,30 +98,20 @@
         <div class="col-md-5 ">
           <div class="banner-form frm-brdr-grd">
             <span class="off-50"><img src="assets/images/off-50.png"></span>
-            <form action="ebsite-order/mail.php" method="POST"
+            <form action="/backend/action/action.php" method="POST"
               class="validate-banner-frm" novalidate="novalidate">
+              <input type="hidden" name="type" value="contactForm">
               <h3>Chat With Us to<span> Avail 70% Discount</span></h3>
               <div class="newlay">
-                <input type="text" class="required" required="" placeholder="Name *" name="cn" aria-required="true">
-                <input type="email" class="required email" required="" placeholder="Email Address *" name="em"
+                <input type="text" class="required" required="" placeholder="Name *" name="name" aria-required="true">
+                <input type="email" class="required email" required="" placeholder="Email Address *" name="email"
                   aria-required="true">
                 <input type="text" class="required number" minlength="10" required="" placeholder="Phone No. *"
-                  name="pn" aria-required="true">
-                <textarea name="msg" class="required" required=""
+                  name="phone" aria-required="true">
+                <textarea name="message" class="required" required=""
                   placeholder="To help us understand better, enter a brief description about your project."
                   aria-required="true"></textarea>
                 <input type="submit" value="Get Free Consultancy">
-                <input type="hidden" name="send" value="1">
-                <input type="hidden" name="lead_area" value="149" class="lead_area">
-                <!-- Email Source -->
-
-                <input type="hidden" name="lb_source" value="Organic" />
-                <input type="hidden" name="lb_source_cat" value="" />
-                <input type="hidden" name="lb_source_nam" value="" />
-                <input type="hidden" name="lb_source_ema" value="" />
-                <input type="hidden" name="lb_source_con" value="" />
-                <input type="hidden" name="lb_source_pho" value="" />
-                <input type="hidden" name="lb_source_off" value="" />
 
                 <!-- Customer Info -->
                 <input type="hidden" name="fullpageurl" value="index.html" />
@@ -1121,20 +1111,18 @@
         <div class="col-md-7">
           <h3>Let’s get started!</h3>
           <p>Contact us by using the form below or send us an email.</p>
-          <form action="ebsite-order/mail.php" method="post"
+          <form action="/backend/action/action.php" method="POST"
             class="cform-section-form">
+            <input type="hidden" name="type" value="contactForm">
             <ul>
-              <li><input type="text" class="required" name="cn" required="" placeholder="Name"></li>
-              <li><input type="email" class="required email" name="em" required="" placeholder="Email Address"></li>
-              <li><input type="text" class="required number" name="pn" required="" placeholder="Phone No."></li>
-              <li class="full-li"><textarea name="msg" class="required" required=""
+              <li><input type="text" class="required" name="name" required="" placeholder="Name"></li>
+              <li><input type="email" class="required email" name="email" required="" placeholder="Email Address"></li>
+              <li><input type="text" class="required number" name="phone" required="" placeholder="Phone No."></li>
+              <li class="full-li"><textarea name="message" class="required" required=""
                   placeholder="To help us understand better, enter a brief description about your project."></textarea>
               </li>
-              <li><input type="submit" value="Submit">
-                <input type="hidden" name="send" value="1">
-                <input type="hidden" name="lead_area" value="" class="leadprice">
-                <input type="hidden" name="lead_action" value="Footer Form" class="lead_action">
-              </li>
+              <input type="submit" value="Submit">
+              <!-- </li> -->
               <!-- Email Source -->
 
               <input type="hidden" name="lb_source" value="Organic" />
@@ -1232,16 +1220,17 @@
         <h2>Activate 70% OFF Coupon </h2>
         <p>Planning to transform your idea into an impeccable reality? Talk to our consultants and we’ll help you work
           it out. <b>It doesn’t cost a dime!</b></p>
-        <form action="ebsite-order/mail.php" method="post" class="popupform_sc">
+        <form action="/backend/action/action.php" method="POST" class="popupform_sc">
+          <input type="hidden" name="type" value="contactForm">
           <div class="row">
             <div class="col-md-6">
-              <input type="text" class="required" required="" name="cn" placeholder="Your Name">
-              <input type="email" class="required email" required="" name="em" placeholder="Your Email">
-              <input type="tel" class="required  number ftpn" required="" name="pn" minlength="7" maxlength="14"
+              <input type="text" class="required" required="" name="name" placeholder="Your Name">
+              <input type="email" class="required email" required="" name="email" placeholder="Your Email">
+              <input type="tel" class="required  number ftpn" required="" name="phone" minlength="7" maxlength="14"
                 placeholder="Your Phone">
             </div>
             <div class="col-md-6">
-              <textarea autocomplete="nope" name="msg" class="required" required=""
+              <textarea autocomplete="nope" name="message" class="required" required=""
                 placeholder="To help us understand better, enter a brief description about your project."></textarea>
             </div>
             <div class="col-md-12 text-center">
@@ -1294,22 +1283,23 @@
         <h2>View Prcing</h2>
         <p>Planning to transform your idea into an impeccable reality? Talk to our consultants and we’ll help you work
           it out. <b>It doesn’t cost a dime!</b></p>
-        <form action="ebsite-order/mail.php" method="post" class="popupform_sc">
+        <form action="backend/action/action.php" method="POST" class="popupform_sc">
+          <input type="hidden" name="type" value="contactForm">
           <div class="row">
             <div class="col-md-6">
-              <input type="text" class="required" required="" name="cn" placeholder="Your Name">
-              <input type="email" class="required email" required="" name="em" placeholder="Your Email">
-              <input type="tel" class="required  number ftpn" required="" name="pn" minlength="7" maxlength="14"
+              <input type="text" class="required" required="" name="name" placeholder="Your Name">
+              <input type="email" class="required email" required="" name="email" placeholder="Your Email">
+              <input type="tel" class="required  number ftpn" required="" name="phone" minlength="7" maxlength="14"
                 placeholder="Your Phone">
             </div>
             <div class="col-md-6">
-              <textarea autocomplete="nope" name="msg" class="required" required=""
+              <textarea autocomplete="nope" name="message" class="required" required=""
                 placeholder="To help us understand better, enter a brief description about your project."></textarea>
             </div>
             <div class="col-md-12 text-center">
               <p class="form_tagline"> <input type="checkbox" name="agree"> &nbsp; To receive our weekly Newsletter/SMS
                 and offers check here. You can unsubscribe at any time.</p>
-              <input type="submit" value="Activate Coupon Now"> <span class="off-50"><img
+              <input type="submit" value=""> <span class="off-50"><img
                   src="assets/images/off-50.png"></span>
               <input type="hidden" name="send" value="1">
               <!-- Email Source -->

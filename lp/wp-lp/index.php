@@ -166,26 +166,27 @@ footer .chexck {
                               <div class="container">
                                  <div class="row">
                                     <div class="ban-form">
-                                       <form class="cmxform" method="POST" action="https://premiumwebexperts.com/mail.php">
+                                       <form class="cmxform" method="POST" action="/backend/action/action.php">
+                                          <input type="hidden" name="type" value="contactForm">
                                           <div class="row">
                                              <div class="col-lg-12">
                                                 <div class="fldset">
-                                                   <input type="text" onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || (event.charCode == 32))" name="cn" value="" size="40" class="input" placeholder="Name" required=""> 
+                                                   <input type="text" onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || (event.charCode == 32))" name="name" value="" size="40" class="input" placeholder="Name" required=""> 
                                                 </div>
                                              </div>
                                              <div class="col-lg-12">
                                                 <div class="fldset">
-                                                   <input type="text" name="em" value="" size="40" placeholder="Email" class="input" required=""> 
+                                                   <input type="email" name="email" value="" size="40" placeholder="Email" class="input" required=""> 
                                                 </div>
                                              </div>
                                              <div class="col-lg-12">
                                                 <div class="fldset">
-                                                   <input  onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" name="pn" minlength="10" maxlength="12" type="text" placeholder="Your Phone" required=""> 
+                                                   <input  onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" name="phone" minlength="10" maxlength="12" type="text" placeholder="Your Phone" required=""> 
                                                 </div>
                                              </div>
                                              <div class="col-lg-12">
                                                 <div class="fldset">
-                                                   <textarea name="msg" cols="40" rows="1" class="textarea" placeholder="Message" required=""></textarea>
+                                                   <textarea name="message" cols="40" rows="1" class="textarea" placeholder="Message" required=""></textarea>
                                                 </div>
                                              </div>
                                              <div class="col-lg-12">
@@ -920,24 +921,26 @@ footer .chexck {
                            <div class="contact-form">
                               <div class="content"></div>
                               <div role="form">
-                                 <form method="POST" action="https://premiumwebexperts.com/mail.php">
+                                 <form method="POST" action="/backend/action/action.php">
+                                    <input type="hidden" name="type" value="contactForm">
+
                                     <div class="app-input-group full">
                                        <span>
-                                       	<input type="text" name="cn" onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || (event.charCode == 32))" value="" size="40" class="input" placeholder="Name" required=""></span>
+                                       	<input type="text" name="name" onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || (event.charCode == 32))" value="" size="40" class="input" placeholder="Name" required=""></span>
                                        <!--<label>Name</label>-->
                                     </div>
                                     <div class="app-input-group full">
                                        <span>
-                                       	<input type="text" name="em" value="" size="40" placeholder="Email" class="input" required="">
+                                       	<input type="email" name="email" value="" size="40" placeholder="Email" class="input" required="">
                                        </span>
                                       
                                     </div>
                                     <div class="app-input-group full">
-                                       <input  onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" name="pn" minlength="10" maxlength="12" type="text" placeholder="Your Phone" class="input" required="" >
+                                       <input  onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" name="phone" minlength="10" maxlength="12" type="text" placeholder="Your Phone" class="input" required="" >
                                     </div>
                                     <div class="app-input-group full">
                                     	<span>
-                                    		<textarea name="msg" cols="40" rows="1" class="textarea" placeholder="Message" required=""></textarea>
+                                    		<textarea name="message" cols="40" rows="1" class="textarea" placeholder="Message" required=""></textarea>
                                     	</span> 
                                     </div>
                                     <div class="send-wrap">
@@ -1361,12 +1364,13 @@ footer .chexck {
                   <div id="pop-form-new-popp" class="col-sm-12">
                      <h6>Activate Your 70% Off Coupon!</h6>
                      <h3 class="gradient_txt">Everywhere & Every Device, <br> Your Site Should Flow Seamlessly!</h3>
-                     <form action="https://premiumwebexperts.com/mail.php" method="POST">
-                        <input type="text" name="cn" placeholder="Enter Name" required="">
-                        <input type="email" name="em" placeholder="Enter Email" required="">
+                     <form action="/backend/action/action.php" method="POST">
+                        <input type="hidden" name="type" value="contactForm">
+                        <input type="text" name="name" placeholder="Enter Name" required="">
+                        <input type="email" name="email" placeholder="Enter Email" required="">
                         <!--<input type="number" name="p" placeholder="Enter Phone" required="">-->
-                        <input  onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" name="pn" minlength="10" maxlength="12" type="text" placeholder="Your Phone"  class="input" required="">
-                        <textarea name="msg" placeholder="Tell us about your project" required="" class="popupMessageArea"></textarea>
+                        <input  onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" name="phone" minlength="10" maxlength="12" type="text" placeholder="Your Phone"  class="input" required="">
+                        <textarea name="message" placeholder="Tell us about your project" required="" class="popupMessageArea"></textarea>
                         <button type="submit" name="cta" class="theme_btn">Signup Now </button>
                        <input type="hidden" id="lead_org_price" name="lead_org_price" value="19">
 	                    <input type="hidden" name="send" value="1">
