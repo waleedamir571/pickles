@@ -1206,7 +1206,7 @@ footer .chexck {
          }
          .popupform-main-new-popup {position: fixed;background: #000c;top: 0;bottom: 0;left: 0;width: 100%;width: 100%;height: 100%;z-index: 9999;background-repeat: no-repeat;background-size: cover;}
          .pop-form-new-popp.ta-center-new-pop {
-         background: #510002;
+            background: linear-gradient(to right, #433eff, #CE00EC);
          width: 400px;
          background-size: cover;
          padding-bottom: 30px;

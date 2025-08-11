@@ -661,12 +661,20 @@ section.footer-form form textarea {
     float: right;
     width: auto;
     padding: 4px 33px;
-    border: #dd414d 2px solid;
+    /* border: #dd414d 2px solid; */
     border-radius: 50px;
     color: #ffffff;
     margin: 14px 0 0;
     font-size: 19px;
     background: #dd414d;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background: linear-gradient(to right, #433eff, #CE00EC); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
 
 section.footer-form form li {
@@ -1752,6 +1760,9 @@ section.lp-banner h1 {
 section.lp-banner h1 span {
     color: #db3340;
     display: block;
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section.lp-banner ul li {
@@ -1775,6 +1786,7 @@ header a.btn-red {
     background: -ms-linear-gradient(left, rgba(210,42,67,1) 0%, rgba(240,118,10,1) 100%);
     background: linear-gradient(to right, rgba(210,42,67,1) 0%, rgba(240,118,10,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d22a43', endColorstr='#f0760a', GradientType=1 );
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 section.lp-banner ul li:before {content:"";background: #dc3d48;padding: 4px;width: 5px;height: 5px;position: absolute;left: 0;border-radius: 50px;top: 7px;}
 
@@ -1791,6 +1803,7 @@ section.lp-banner a.various {
     background: #e3ab00;
     color: #000;
     margin-top: 16px;
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 
 section.lp-banner a {
@@ -1816,7 +1829,7 @@ a.btn-red {
     border-radius: 6px;
     margin-right: 17px;
     background: #db3340;
-    box-shadow: #63616157 0 3px 4px;
+    /* box-shadow: #63616157 0 3px 4px; */
 }
 
 a.btn-red i {
@@ -2111,6 +2124,7 @@ section.packages a.grad-btn {
     top: 20px;
     background: #dc321a;
     border-color: #7a1d10;
+    background: linear-gradient(to right, #433eff, #CE00EC);
 }
 section.packages p {
     font-size: 14px;
@@ -2185,6 +2199,9 @@ section.packages [class^="col-md-4"]>div .pricebox h3 {
     font-weight: 700;
     color: #dd342f;
     padding-right: 10px;
+    background: linear-gradient(to right, #433eff, #CE00EC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 section.packages [class^="col-md-4"]>div .pricebox strike {
     font-size: 16px;
