@@ -98,7 +98,7 @@
         <div class="col-md-5 ">
           <div class="banner-form frm-brdr-grd">
             <span class="off-50"><img src="assets/images/off-50.png"></span>
-            <form action="https://www.websitedesign247.com/website-order/mail.php" method="POST"
+            <form action="ebsite-order/mail.php" method="POST"
               class="validate-banner-frm" novalidate="novalidate">
               <h3>Chat With Us to<span> Avail 70% Discount</span></h3>
               <div class="newlay">
@@ -1121,7 +1121,7 @@
         <div class="col-md-7">
           <h3>Let’s get started!</h3>
           <p>Contact us by using the form below or send us an email.</p>
-          <form action="https://www.websitedesign247.com/website-order/mail.php" method="post"
+          <form action="ebsite-order/mail.php" method="post"
             class="cform-section-form">
             <ul>
               <li><input type="text" class="required" name="cn" required="" placeholder="Name"></li>
@@ -1232,7 +1232,7 @@
         <h2>Activate 70% OFF Coupon </h2>
         <p>Planning to transform your idea into an impeccable reality? Talk to our consultants and we’ll help you work
           it out. <b>It doesn’t cost a dime!</b></p>
-        <form action="https://www.websitedesign247.com/website-order/mail.php" method="post" class="popupform_sc">
+        <form action="ebsite-order/mail.php" method="post" class="popupform_sc">
           <div class="row">
             <div class="col-md-6">
               <input type="text" class="required" required="" name="cn" placeholder="Your Name">
@@ -1294,7 +1294,7 @@
         <h2>View Prcing</h2>
         <p>Planning to transform your idea into an impeccable reality? Talk to our consultants and we’ll help you work
           it out. <b>It doesn’t cost a dime!</b></p>
-        <form action="https://www.websitedesign247.com/website-order/mail.php" method="post" class="popupform_sc">
+        <form action="ebsite-order/mail.php" method="post" class="popupform_sc">
           <div class="row">
             <div class="col-md-6">
               <input type="text" class="required" required="" name="cn" placeholder="Your Name">
@@ -1356,7 +1356,7 @@
         <h2>Activate 70% OFF Coupon </h2>
         <p>Planning to transform your idea into an impeccable reality? Talk to our consultants and we’ll help you work
           it out. <b>It doesn’t cost a dime!</b></p>
-        <form action="https://www.websitedesign247.com/website-order/mail.php" method="post" class="apopupform_sc">
+        <form action="ebsite-order/mail.php" method="post" class="apopupform_sc">
           <div class="row">
             <div class="col-md-6">
               <input type="text" class="required" required="" name="cn" placeholder="Your Name">
